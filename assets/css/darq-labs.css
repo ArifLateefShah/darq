@@ -119,6 +119,10 @@ header.darkHeader{
     background-position: center;
     background-size: cover;
 }
+
+.banner-sec-brand-assets{
+    padding: 13% 0% 8%;
+}
 .banner-sec:before{
     content: "";
     position: absolute;
@@ -224,7 +228,8 @@ footer{background-color: #000;padding: 6% 0;}
 .subscribe-form{max-width: 330px;}
 .subscribe-form input{
     background-color: #000;
-    color: rgba(0, 0, 0, 0.5);
+    /* color: rgba(0, 0, 0, 0.5); */
+    color: #fff;
     font-size: 16px;
     line-height: 22px;
     font-weight: 400;

@@ -1,50 +1,8 @@
-
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.5">
+<?php require_once('inc/header.php'); ?>
     <title>DarQ</title>
-
-    <link rel="canonical" href="/">
-
-    <!-- Bootstrap core CSS -->
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" >
-    <link href="./assets/css/contact-us.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
-    <script src="./assets/js/bootstrap.bundle.min.js" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.6/jqBootstrapValidation.js"></script>
-    <script src="./assets/js/custom.js" ></script>
   </head>
   <body>
-    <header class="clearHeader">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-transparent">
-            <a class="navbar-brand" href="#">
-                <img src="./assets/img/darq.png">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto mr-10">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Darq.Laps</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-                </ul>
-                <a class="btn btn-outline-white my-2 my-sm-0" href="/funding.html">Apply fo funding</a>
-                </form>
-            </div>
-        </nav>
-    </header>
+ <?php require_once('inc/nav.php'); ?>
     <section class="bg-color-0 form-sec">
         <div class="container">
             <div class="row justify-content-center">
@@ -114,40 +72,4 @@
             </div>
         </div>
     </section>
-    <footer>
-        <div class="container-darq xs-txt-center">
-            <div class="row">
-                <div class="col-md-4 xs-mb-10">
-                    <a class="navbar-brand footer-logo" href="#">
-                        <img src="./assets/img/darq.png">
-                    </a>
-                    <p class="txt-14 lh-17 color-white p-10-0">© 2021 Darq Capital. All Rights Reserved</p>
-                </div>
-                <div class="col-md-4 xs-mb-10">
-                    <ul class="footer-links list-group d-flex flex-row flex-wrap">
-                        <li class="list-group-item w-50 xs-w-100 list-group-item-action"><a href="/">About</a></li>
-                        <li class="list-group-item w-50 xs-w-100 list-group-item-action"><a href="/brand-assets.html">Brand Assets</a></li>
-                        <li class="list-group-item w-50 xs-w-100 list-group-item-action"><a href="/darq-labs.html">Darq.Labs</a></li>
-                        <li class="list-group-item w-50 xs-w-100 list-group-item-action"><a href="/contact-us.html">Contact us</a></li>
-                        <li class="list-group-item w-50 xs-w-100 list-group-item-action"><a href="/apply-for-funding.html">Apply for funding</a></li>
-                        <li class="list-group-item w-50 xs-w-100 list-group-item-action"><a href="/disclaimer.html">Disclaimer</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 xs-mb-10">
-                    <p class="txt-16 lh-22 color-white fw-400">Subscribe to our Newsletter</p>
-                    <form id="newsletter-form">
-                        <div class="input-group mb-3 col-md-10 subscribe-form p-0">
-                            <input type="email" class="form-control" id="newsletter-email" name="email" placeholder="Enter your email address" required="required" data-validation-required-message="Please enter your email address.">
-                            <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="submit" id="newsletter-button"><span></span></button>
-                            </div>
-                            <div id="newsletter-success"></div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </footer>
-    
-</body>
-</html>
+    <?php require_once('inc/footer.php'); ?>

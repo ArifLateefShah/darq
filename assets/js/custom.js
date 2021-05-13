@@ -1,3 +1,4 @@
+var base_url = window.location.origin;
 $(function() {
     //caches a jQuery object containing the header element
     var header = $(".clearHeader");
@@ -22,7 +23,7 @@ $(function() {
                 $this.prop('disabled', true);
                 var form_data = $("#contact-form").serialize();
                 $.ajax({
-                    url:"http://localhost/darq/php/contact.php",
+                    url:base_url+"/darq/php/contact.php",
                     method:"POST",
                     data:form_data,
                     success:function(){
@@ -52,7 +53,7 @@ $(function() {
                 $this.prop('disabled', true);
                 var form_data = $("#newsletter-form").serialize();
                 $.ajax({
-                    url:"http://localhost/darq/php/newsletter.php",
+                    url:base_url+"/darq/php/newsletter.php",
                     method:"POST",
                     data:form_data,
                     success:function(){
