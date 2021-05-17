@@ -1,5 +1,5 @@
 <?php require_once('inc/header.php'); ?>
-    <title>DarQ</title>
+    <title>DarQ - Contact Us</title>
   </head>
   <body>
  <?php require_once('inc/nav.php'); ?>

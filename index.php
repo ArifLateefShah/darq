@@ -3,7 +3,7 @@
   </head>
   <body>
  <?php require_once('inc/nav.php'); ?>
-    <section class="banner-sec bg-color-0">
+    <section class="banner-sec bg-color-0" id="particles-js">
         <div class="container-darq z-1">
             <div class="row">
                 <div class="col-md-10 col=-sm-11 col-xs-12">
@@ -11,7 +11,7 @@
                 </div>
             </div>
         </div>
-        <img src="./assets/img/wave-bg.svg" alt="wave-img" class="wave-bg z-0">
+        <!-- <img src="./assets/img/wave-bg.svg" alt="wave-img" class="wave-bg z-0"> -->
     </section>
     <section class="section-2">
         <video autoplay muted loop id="overlayVideo" poster="./assets/img/video-placeholder.png" class="hide-sm">
@@ -75,17 +75,18 @@
                     <div class="col-md-11 text-center">
                         <h2 class="txt-48 lh-56 color-black fw-300 text-uppercase">GET IN TOUCH WITH US</h2>
                         <p class="txt-16 lh-22 color-black">Have any queries? Need to discuss with Darq.capital or share data that could be interesting to us? Or just need to chat and explore ideas with us?</p>
-                        <a href="/contactus.html" class="color-black btn hover-btn1">Contact us</a>
+                        <a href="./contact-us.php" class="color-black btn hover-btn1">Contact us</a>
                     </div>
                 </div>
                 <div class="col-md-6 pad-10-1 d-flex justify-content-center bg-color-5 cube-bg">
                     <div class="col-md-11 text-center">
                         <h2 class="txt-48 lh-56 color-black fw-300 text-uppercase">Want to get funded?</h2>
                         <p class="txt-16 lh-22 color-black">Send us your deck, white paper, or investment opportunities to: pitch@darq.capital. You can also apply by clicking the button below.</p>
-                        <a href="" class="color-black btn hover-btn2">Apply for funding</a>
+                        <a href="./apply-for-funding.php" class="color-black btn hover-btn2">Apply for funding</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    
     <?php require_once('inc/footer.php'); ?>

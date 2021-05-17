@@ -1,9 +1,9 @@
 <?php require_once('inc/header.php'); ?>
-    <title>DarQ</title>
+    <title>DarQ - Disclaimer</title>
   </head>
   <body>
  <?php require_once('inc/nav.php'); ?>
-    <section class="bg-color-0 banner-sec">
+    <section class="bg-color-0 disclaimer-banner-sec">
         <div class="container text-center">
             <div class="row justify-content-center">
                 <div class="col-md-10">

@@ -10,6 +10,16 @@ $(function() {
         } else {
             header.removeClass("darkHeader").addClass('clearHeader');
         }
+        if($(window).outerWidth() > 768){
+            if (scroll >= ($(".scroll-sec").offset().top - 100)) {
+                $(".globe").removeClass("position-relative").addClass("position-fixed")
+            } else{
+                $(".globe").removeClass("position-fixed").addClass("position-relative")
+            }
+            if(scroll >= ($(".get-in-touch-sec").offset().top-300)){
+                $(".globe").removeClass("position-fixed").addClass("position-relative")
+            }
+        }
     });
 });
 
@@ -38,7 +48,7 @@ $(function() {
                         setTimeout(function(){
                         $this.prop("disabled", false);
                         $('#success').html('');
-                        }, 10000);
+                        }, 20000);
                     }
                 });
             },
@@ -57,7 +67,7 @@ $(function() {
                     method:"POST",
                     data:form_data,
                     success:function(){
-                        $('#newsletter-success').html("<div class='alert alert-success'><strong>Your message has been sent. </strong></div>");
+                        $('#newsletter-success').html("<div class='alert alert-success'><strong>Newsletter subscribed successfully. </strong></div>");
                         $('#newsletter-form').trigger('reset');
                     },
                     error:function(){
@@ -68,10 +78,31 @@ $(function() {
                         setTimeout(function(){
                         $this.prop("disabled", false);
                         $('#newsletter-success').html('');
-                        }, 10000);
+                        }, 100000);
                     }
                 });
             },
         });
     }
+
+
+
+    
 });
+
+$(function () {
+    setNavigation();
+});
+
+function setNavigation() {
+    var path = window.location.pathname;
+    path = path.replace(/\/$/, "");
+    path = decodeURIComponent(path);
+
+    $(".nav a").each(function () {
+        var href = $(this).attr('href');console.log(href);
+        if (path.substring(0, href.length) === href) {
+            $(this).closest('li').addClass('active');
+        }
+    });
+}

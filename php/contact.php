@@ -18,7 +18,7 @@ function set_airtable_data() {
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POST, 1); // Specify the request method as POST
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($post_data, JSON_UNESCAPED_SLASHES));
-    $result = json_decode(curl_exec($ch)); // Execute the cURL statement
+    // $result = json_decode(curl_exec($ch)); // Execute the cURL statement
     $server_output = json_decode(curl_exec($ch)); // Close the cURL connection
     $statusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     if($statusCode == '200'){
