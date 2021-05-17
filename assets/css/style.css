@@ -428,6 +428,7 @@ font-size: 90%;
     color:#000;
     border-radius: unset;
 }
+.profile-input{margin: 10px auto;}
 /* Multistep form */
 @media (min-width: 768px){
     .navbar, .container-darq {

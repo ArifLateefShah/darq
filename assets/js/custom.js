@@ -11,13 +11,15 @@ $(function() {
             header.removeClass("darkHeader").addClass('clearHeader');
         }
         if($(window).outerWidth() > 768){
-            if (scroll >= ($(".scroll-sec").offset().top - 100)) {
-                $(".globe").removeClass("position-relative").addClass("position-fixed")
-            } else{
-                $(".globe").removeClass("position-fixed").addClass("position-relative")
-            }
-            if(scroll >= ($(".get-in-touch-sec").offset().top-300)){
-                $(".globe").removeClass("position-fixed").addClass("position-relative")
+            if($(".scroll-sec").length > 0){
+                if (scroll >= ($(".scroll-sec").offset().top - 100)) {
+                    $(".globe").removeClass("position-relative").addClass("position-fixed")
+                } else{
+                    $(".globe").removeClass("position-fixed").addClass("position-relative")
+                }
+                if(scroll >= ($(".get-in-touch-sec").offset().top-300)){
+                    $(".globe").removeClass("position-fixed").addClass("position-relative")
+                }
             }
         }
     });

@@ -6,7 +6,7 @@
         <title>DarQ - Apply for funding</title>
         <meta name="description" content="">
         <link rel="canonical" href="/">
-        <link href="./favicon.ico" rel="shortcut icon">
+        <link rel="icon" href="./favicon.ico">
         <!-- Bootstrap core CSS -->
         <link href="./assets/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
         <link href="./assets/css/style.css" rel="stylesheet">
@@ -110,10 +110,11 @@
                                     id="step-7">
                                     <legend class="text-left color-white txt-36 lh-56 fw-300">6. Linkedin Profile of Founders <span class="txt-16 txt-al-ct">*</span></legend>
                                     <p>
-                                        <input class="form-control" type="url" placeholder="Enter your Linkedin Profile of Founders" name="linedin-profile" id="linedin-profile" required>
+                                        <input class="form-control" type="url" placeholder="Enter your Linkedin Profile of Founders" name="linedin-profile[0]" id="linedin-profile[0]" required>
                                     </p>
+                                    <p class="link-list"></p>
                                     <p>
-                                        <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
+                                        <button class="btn btn-default add-link" type="button" aria-controls="step-1">Add More Link</button>
                                         <button class="btn bg-color-1 btn-next fw-500 txt-18 lh-22 br-none" type="button" aria-controls="step-8">Ok</button>
                                     </p>
                                     <div class="page-no">
@@ -585,6 +586,27 @@
             $(":input").inputmask();
 
             $("#contact-number").inputmask({"mask": "(999) 999-9999"});
+
+
+            $(document.body).on('click', '.btn-remove-profile-link' ,function(){
+				$(this).closest('.profile-input').remove();
+			});
+			
+
+            $('.add-link').click(function(){
+
+                var index = $('.profile-input').length + 1;
+
+                $('.link-list').append(''+
+                        '<div class="input-group profile-input">'+
+                            '<input class="form-control" type="url" placeholder="Enter your Linkedin Profile of Founders" name="linedin-profile['+index+']" id="linedin-profile['+index+']" required>'+
+                            '<span class="input-group-btn">'+
+                                '<button class="btn btn-danger btn-remove-profile-link" type="button"><span class="glyphicon glyphicon-remove ">X</span></button>'+
+                            '</span>'+
+                        '</div>'
+                );
+
+            });
         </script>
     </body>
 </html>
