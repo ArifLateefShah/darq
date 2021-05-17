@@ -444,7 +444,7 @@
                         // console.log($("#multi-step-form").serialize());
                         var form_data = $("#multi-step-form").serialize();
                         $.ajax({
-                            url:base_url+"/darq/php/questions.php",
+                            url:base_url+"/php/questions.php",
                             method:"POST",
                             data:form_data,
                             success:function(){
