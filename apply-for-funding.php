@@ -35,44 +35,47 @@
                                     entrepreneurs trying to make a difference. </p>
                                     <p class="text-center color-h-white txt-16 lh-22 fw-400">To apply for funding support, please fill out the short questionnaire below.</p>
                                     <p class="margin-auto text-center">
-                                        <button class="btn bg-color-1 btn-next fw-500 txt-18 lh-22 br-none" type="button" aria-controls="step-2">Get started</button>
+                                        <button class="btn bg-color-1 btn-next fw-600 txt-18 lh-22 br-none" type="button" aria-controls="step-2">Get started</button>
                                     </p>
                                     <p class="txt-12 lh-16 text-center color-h-white">Takes around 2 mins</p>
                                 </fieldset>
                                 <fieldset aria-label="Step Two - Your Email Address" id="step-2">
-                                    <legend class="text-left color-white txt-36 lh-56 fw-300">1. Your Email Address <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">1. Your Email Address <span class="txt-16 txt-al-ct">*</span></legend>
                                     <p>
                                         <input class="form-control" type="email" placeholder="Enter your email address" name="email-address" id="email-address" required>
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
-                                        <button class="btn bg-color-1 btn-next fw-500 txt-18 lh-22 br-none" type="button" aria-controls="step-3">Ok</button>
+                                        <button class="btn bg-color-1 btn-next fw-600 txt-18 lh-22 br-none" type="button" aria-controls="step-3">OK</button>
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">0 of 12 answered </p>
+                                        <div class="next-prev-box">
+                                            <div class="prev-link"></div><div class="next-link"></div>
+                                        </div>
                                     </div>
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Three - Your Real Name *" id="step-3">
-                                    <legend class="text-left color-white txt-36 lh-56 fw-300">2. Your Real Name <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">2. Your Real Name <span class="txt-16 txt-al-ct">*</span></legend>
                                     <p>
                                         <input class="form-control" type="text" placeholder="Enter your real name" name="real-name" id="real-name" required>
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
-                                        <button class="btn bg-color-1 btn-next fw-500 txt-18 lh-22 br-none" type="button" aria-controls="step-4">Ok</button>
+                                        <button class="btn bg-color-1 btn-next fw-600 txt-18 lh-22 br-none" type="button" aria-controls="step-4">OK</button>
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">1 of 12 answered </p>
                                     </div>
                                 </fieldset>
                                 <fieldset aria-label="Step Four - Company Name" id="step-4">
-                                    <legend class="text-left color-white txt-36 lh-56 fw-300">3. Company Name <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">3. Company Name <span class="txt-16 txt-al-ct">*</span></legend>
                                     <p>
                                         <input class="form-control" type="text" placeholder="Enter your company name" name="company-name" id="company-name" required>
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
-                                        <button class="btn bg-color-1 btn-next fw-500 txt-18 lh-22 br-none" type="button" aria-controls="step-5">Ok</button>
+                                        <button class="btn bg-color-1 btn-next fw-600 txt-18 lh-22 br-none" type="button" aria-controls="step-5">OK</button>
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">2 of 12 answered </p>
@@ -80,13 +83,13 @@
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Five - Company URL" aria-describedby="co-borrower-error"
                                     id="step-5">
-                                    <legend class="text-left color-white txt-36 lh-56 fw-300">4. Company URL <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">4. Company URL <span class="txt-16 txt-al-ct">*</span></legend>
                                     <p>
                                         <input class="form-control" type="url" placeholder="Enter your company URL" name="company-url" id="company-url" required>
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
-                                        <button class="btn bg-color-1 btn-next fw-500 txt-18 lh-22 br-none" type="button" aria-controls="step-6">Ok</button>
+                                        <button class="btn bg-color-1 btn-next fw-600 txt-18 lh-22 br-none" type="button" aria-controls="step-6">OK</button>
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">3 of 12 answered </p>
@@ -94,13 +97,13 @@
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Six - Contact Number" aria-describedby="co-borrower-error"
                                     id="step-6">
-                                    <legend class="text-left color-white txt-36 lh-56 fw-300">5. Contact Number <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">5. Contact Number <span class="txt-16 txt-al-ct">*</span></legend>
                                     <p>
                                         <input class="form-control" type="text" placeholder="Enter your Contact Number" name="contact-number" id="contact-number" required data-inputmask="'alias': 'phonebe'">
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
-                                        <button class="btn bg-color-1 btn-next fw-500 txt-18 lh-22 br-none" type="button" aria-controls="step-7">Ok</button>
+                                        <button class="btn bg-color-1 btn-next fw-600 txt-18 lh-22 br-none" type="button" aria-controls="step-7">OK</button>
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">4 of 12 answered </p>
@@ -108,14 +111,14 @@
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Seven - Linkedin Profile of Founders" aria-describedby="co-borrower-error"
                                     id="step-7">
-                                    <legend class="text-left color-white txt-36 lh-56 fw-300">6. Linkedin Profile of Founders <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">6. Linkedin Profile of Founders <span class="txt-16 txt-al-ct">*</span></legend>
                                     <p>
                                         <input class="form-control" type="url" placeholder="Enter your Linkedin Profile of Founders" name="linedin-profile[0]" id="linedin-profile[0]" required>
                                     </p>
                                     <p class="link-list"></p>
                                     <p>
-                                        <button class="btn btn-default add-link" type="button" aria-controls="step-1">Add More Link</button>
-                                        <button class="btn bg-color-1 btn-next fw-500 txt-18 lh-22 br-none" type="button" aria-controls="step-8">Ok</button>
+                                        <button class="btn btn-default add-link" type="button" aria-controls="step-1">Add More</button>
+                                        <button class="btn bg-color-1 btn-next fw-600 txt-18 lh-22 br-none" type="button" aria-controls="step-8">OK</button>
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">5 of 12 answered </p>
@@ -123,13 +126,13 @@
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Eight - Linkedin Profile of Founders" aria-describedby="co-borrower-error"
                                     id="step-8">
-                                    <legend class="text-left color-white txt-36 lh-56 fw-300">7. Link to your deck, materials, or supplemental info <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">7. Link to your deck, materials, or supplemental info <span class="txt-16 txt-al-ct">*</span></legend>
                                     <p>
                                         <input class="form-control" type="url" placeholder="Link to your deck, materials, or supplemental info" name="supplemental-info" id="supplemental-info" required>
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
-                                        <button class="btn bg-color-1 btn-next fw-500 txt-18 lh-22 br-none" type="button" aria-controls="step-9">Ok</button>
+                                        <button class="btn bg-color-1 btn-next fw-600 txt-18 lh-22 br-none" type="button" aria-controls="step-9">OK</button>
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">6 of 12 answered </p>
@@ -137,21 +140,21 @@
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Nine - Short description of your product" aria-describedby="co-borrower-error"
                                     id="step-9">
-                                    <legend class="text-left color-white txt-36 lh-56 fw-300">8. Short description of your product <span class="txt-16 txt-al-ct">(in less than 200 characters)</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">8. Short description of your product <br><span class="txt-16 txt-al-ct">(in less than 200 characters)</span></legend>
                                     <p>
-                                        <textarea class="form-control" maxlength="200" placeholder="Short description of your product" rows="4" name="short-description" id="short-description" required></textarea>
+                                        <textarea class="form-control" maxlength="200" placeholder="Short description of your product" rows="4" name="short-description" id="short-description"></textarea>
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
-                                        <button class="btn bg-color-1 btn-next fw-500 txt-18 lh-22 br-none" type="button" aria-controls="step-10">Ok</button>
+                                        <button class="btn bg-color-1 btn-next fw-600 txt-18 lh-22 br-none" type="button" aria-controls="step-10">OK</button>
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">7 of 12 answered </p>
                                     </div>
                                 </fieldset>
-                                <fieldset role="radiogroup" aria-label="Step Ten - Which of the following best describes the status of your project?" aria-describedby="co-borrower-error"
+                                <fieldset role="radiogroup" aria-label="Step Ten - Describe the status of your project from the following?" aria-describedby="co-borrower-error"
                                     id="step-10">
-                                    <legend class="text-left color-white txt-36 lh-56 fw-300">9. Which of the following best describes the status of your project? <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">9. Describe the status of your project from the following? <span class="txt-16 txt-al-ct">*</span></legend>
                                     <p>
                                         <select class="form-control" id="status-of-your-project" name="status-of-your-project">
                                             <option value="Idea">Idea</option>
@@ -163,7 +166,7 @@
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
-                                        <button class="btn bg-color-1 btn-next fw-500 txt-18 lh-22 br-none" type="button" aria-controls="step-11">Ok</button>
+                                        <button class="btn bg-color-1 btn-next fw-600 txt-18 lh-22 br-none" type="button" aria-controls="step-11">OK</button>
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">8 of 12 answered </p>
@@ -171,14 +174,14 @@
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Eleven - Current Funding Requirement?" aria-describedby="co-borrower-error"
                                     id="step-11">
-                                    <legend class="text-left color-white txt-36 lh-56 fw-300">10. Current Funding Requirement? <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">10. Current Funding Requirement? <span class="txt-16 txt-al-ct">*</span></legend>
                                     <small class="color-h-white">(Please mention in USD)</small>
                                     <p>
                                     <input class="form-control" type="number" placeholder="Current Funding Requirement" name="current-funding-requirement" id="current-funding-requirement" required>
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
-                                        <button class="btn bg-color-1 btn-next fw-500 txt-18 lh-22 br-none" type="button" aria-controls="step-12">Ok</button>
+                                        <button class="btn bg-color-1 btn-next fw-600 txt-18 lh-22 br-none" type="button" aria-controls="step-12">OK</button>
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">9 of 12 answered </p>
@@ -186,13 +189,13 @@
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Twelve - Pls mention, if any funding commitments already received." aria-describedby="co-borrower-error"
                                     id="step-12">
-                                    <legend class="text-left color-white txt-36 lh-56 fw-300">11. Pls mention, if any funding commitments already received. <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">11. Please mention if you have received any funding commitments already. </legend>
                                     <p>
                                         <input class="form-control" type="text" placeholder="Pls mention, if any funding commitments already received." name="funding-commitments" id="funding-commitments">
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
-                                        <button class="btn bg-color-1 btn-next fw-500 txt-18 lh-22 br-none" type="button" aria-controls="step-13">Ok</button>
+                                        <button class="btn bg-color-1 btn-next fw-600 txt-18 lh-22 br-none" type="button" aria-controls="step-13">OK</button>
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">10 of 12 answered </p>
@@ -200,7 +203,7 @@
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Twelve - Pls mention, if any funding commitments already received." aria-describedby="co-borrower-error"
                                     id="step-13">
-                                    <legend class="text-left color-white txt-36 lh-56 fw-300">12. Any questions or specific needs? <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">12. Any questions or specific needs? <span class="txt-16 txt-al-ct">*</span></legend>
                                     <p>
                                         <textarea class="form-control" placeholder="Any questions or specific needs?" rows="4" name="questions" id="questions"></textarea>
                                     </p>
@@ -448,7 +451,7 @@
                             method:"POST",
                             data:form_data,
                             success:function(){
-                                $('#questions-success').html("<div><span class='checkmark'><div class='checkmark_circle'></div><div class='checkmark_stem'></div><div class='checkmark_kick'></div></span><strong class='d-block color-white txt-48 lh-56 fw-300 text-center margin-auto'>Thank you for taking time out to apply</strong><br><br><p class='color-white txt-16 lh-22 text-center margin-auto'>Your application has been received</p></div>");
+                                $('#questions-success').html("<div><span class='checkmark'><div class='checkmark_circle'></div><div class='checkmark_stem'></div><div class='checkmark_kick'></div></span><strong class='d-block color-white txt-48 lh-56 fw-300 text-center margin-auto'>Thank you for taking the time to apply.</strong><br><br><p class='color-white txt-16 lh-22 text-center margin-auto'>Your application has been received</p></div>");
                                 $('#multi-step-form').hide();
                             },
                             error:function(){

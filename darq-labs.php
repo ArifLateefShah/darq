@@ -1,4 +1,5 @@
-<?php require_once('inc/header.php'); ?>
+<?php require_once('inc/header.php');
+$page_name = "darq-labs"; ?>
     <title>DarQ - Labs</title>
   </head>
   <body>
@@ -107,7 +108,7 @@
                                         <div class="col-md-8">
                                             <p class="txt-18 lh-22 color-white fw-300 d-block pad-0 m-5-auto"><b class="fw-600">Community</b></p>
                                         <p class="txt-16 lh-22 color-white fw-300 d-block">
-                                            Darq.Labs opens up access to a network of seasoned founders, experts to generate impact on the ground, right from being a sounding-board to even getting their hands dirty to help solve your problems.
+                                        Darqlabs opens up access to a network of seasoned founders, experts to generate impact on the ground, right from being a sounding-board to even getting their hands dirty to help solve your problems.
                                         </p>
                                         </div>
                                         

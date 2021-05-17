@@ -1,4 +1,5 @@
-<?php require_once('inc/header.php'); ?>
+<?php require_once('inc/header.php');
+$page_name = "about"; ?>
     <title>DarQ</title>
   </head>
   <body>
@@ -22,7 +23,7 @@
             <div class="row">
                 <div class="col-md-7 col-sm-10 col-xs-12 content-p">
                     <h2 class="color-black lh-56 txt-48 fw-300 sm-txt-center">Reimagining the future</h2>
-                    <p class="color-black lh-22 txt-16 fw-500">DARQ is an ode to a combination of exciting technologies that are expected to drive incredible and impactful opportunities to reimagine the human future - Distributed Ledger Technology, Artificial Intelligence, Extended Reality and Quantum Computing.</p>
+                    <p class="color-black lh-22 txt-16 fw-500">DARQ is an ode to a combination of exciting technologies that are expected to drive incredible and impactful opportunities to reimagine the human future - <strong>D</strong>istributed Ledger Technology, <strong>A</strong>rtificial Intelligence, Extended <strong>R</strong>eality and <strong>Q</strong>uantum Computing.</p>
                     <p class="color-black lh-22 txt-16 fw-500">Whether it’s <b class="fw-600">Pre-seed, Seed or Series A,</b> we’re building a new-age fund for founders who are looking to better our living world.</p>
                     <p class="color-black lh-22 txt-16 fw-500">Run by entrepreneurs and founders, we know what it takes to grow an idea into a business. The rise of decentralised networks and quantum computing will re-imagine the way billions of people interact, develop and take control of their own lives.</p>
                 </div>

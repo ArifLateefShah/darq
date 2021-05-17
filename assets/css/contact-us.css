@@ -99,6 +99,7 @@ header.darkHeader{
     z-index: 5;
     background: rgba(0,0,0,.7);
 }
+header .navbar-brand img{max-width: 220px;}
 /* Top Navbar menu*/
 .container-darq {
     width: 90%;
@@ -112,8 +113,9 @@ header.darkHeader{
 .form-sec{padding: 10% 0 6%;}
 .content-area{padding: 100px 0;}
 .br-unset{border-radius: unset;}
-.contact-form input, .contact-form textarea{background-color: transparent;}
-.contact-form input:focus, .contact-form textarea:focus{background-color: transparent;}
+.contact-form input, .contact-form textarea{background-color: transparent;color:#fff}
+#contact-form input:focus, .contact-form textarea:focus{background-color: transparent;color: #fff;}
+#contact-form button{height: 50px;padding: 0 3.5rem;font-weight: 600;}
 #success{
     position: relative;
     display: inline-block;
@@ -150,14 +152,14 @@ footer{background-color: #000;padding: 6% 0;}
 }
 .subscribe-form button span:after {
     border-left-color: #000;
-    border-width: 9px;
-    margin-top: -9px;
+    border-width: 8px;
+    margin-top: -8px;
 }
 .subscribe-form button span:before {
     border-color: rgba(194, 225, 245, 0);
     border-left-color: #8FF9AD;
-    border-width: 11px;
-    margin-top: -11px;
+    border-width: 10px;
+    margin-top: -10px;
 }
 .subscribe-form{max-width: 330px;}
 .subscribe-form input{
@@ -177,6 +179,9 @@ footer{background-color: #000;padding: 6% 0;}
 .subscribe-form .btn-outline-secondary:not(:disabled):not(.disabled):active,
 .subscribe-form .show>.btn-outline-secondary.dropdown-toggle,
 .subscribe-form button:hover, .subscribe-form button:active, .subscribe-form button:visited, .subscribe-form button:focus{background-color: unset;border-radius: unset;border-color: unset;box-shadow: unset;}
+.alert-success, .alert-danger{border: unset;background-color: unset;}
+.alert-danger{color:red;font-weight: 400;}
+.alert-success{color: #8FF9AD;font-weight: 400;}
 /* Footer */
 
 

@@ -1,4 +1,5 @@
-<?php require_once('inc/header.php'); ?>
+<?php require_once('inc/header.php');
+$page_name = "contact-us"; ?>
     <title>DarQ - Contact Us</title>
   </head>
   <body>

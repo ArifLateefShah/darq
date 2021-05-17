@@ -10,14 +10,14 @@ $(function() {
         } else {
             header.removeClass("darkHeader").addClass('clearHeader');
         }
-        if($(window).outerWidth() > 768){
+        if($(window).outerWidth() > 767){
             if($(".scroll-sec").length > 0){
                 if (scroll >= ($(".scroll-sec").offset().top - 100)) {
                     $(".globe").removeClass("position-relative").addClass("position-fixed")
                 } else{
                     $(".globe").removeClass("position-fixed").addClass("position-relative")
                 }
-                if(scroll >= ($(".get-in-touch-sec").offset().top-300)){
+                if(scroll >= ($(".get-in-touch-sec").offset().top-400)){
                     $(".globe").removeClass("position-fixed").addClass("position-relative")
                 }
             }
@@ -69,7 +69,7 @@ $(function() {
                     method:"POST",
                     data:form_data,
                     success:function(){
-                        $('#newsletter-success').html("<div class='alert alert-success'><strong>Newsletter subscribed successfully. </strong></div>");
+                        $('#newsletter-success').html("<div class='alert alert-success'><strong>You are successfully subscribed. </strong></div>");
                         $('#newsletter-form').trigger('reset');
                     },
                     error:function(){

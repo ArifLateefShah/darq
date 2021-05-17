@@ -106,6 +106,7 @@ header.darkHeader{
     z-index: 5;
     background: rgba(0,0,0,.7);
 }
+header .navbar-brand img{max-width: 220px;}
 /* Top Navbar menu*/
 .align-center{align-items: center;}
 .pad-5{padding: 5%;}
@@ -220,14 +221,14 @@ footer{background-color: #000;padding: 6% 0;}
 }
 .subscribe-form button span:after {
     border-left-color: #000;
-    border-width: 9px;
-    margin-top: -9px;
+    border-width: 8px;
+    margin-top: -8px;
 }
 .subscribe-form button span:before {
     border-color: rgba(194, 225, 245, 0);
     border-left-color: #8FF9AD;
-    border-width: 11px;
-    margin-top: -11px;
+    border-width: 10px;
+    margin-top: -10px;
 }
 .subscribe-form{max-width: 330px;}
 .subscribe-form input, .subscribe-form input:focus{
@@ -248,6 +249,9 @@ footer{background-color: #000;padding: 6% 0;}
 .subscribe-form .btn-outline-secondary:not(:disabled):not(.disabled):active,
 .subscribe-form .show>.btn-outline-secondary.dropdown-toggle,
 .subscribe-form button:hover, .subscribe-form button:active, .subscribe-form button:visited, .subscribe-form button:focus{background-color: unset;border-radius: unset;border-color: unset;box-shadow: unset;}
+.alert-success, .alert-danger{border: unset;background-color: unset;}
+.alert-danger{color:red;font-weight: 400;}
+.alert-success{color: #8FF9AD;font-weight: 400;}
 /* Footer */
 
 .color-box{
@@ -257,7 +261,7 @@ footer{background-color: #000;padding: 6% 0;}
     margin: 10px auto;
 }
 .color-box-boder{
-    border: 1px solid #000;
+    border: 1px solid rgba(0,0,0,.45);
 }
 canvas {
     width:100%;
@@ -268,7 +272,9 @@ canvas {
     position: fixed!important;
     right: -8%;
     top: 22%;
-    max-width: 60%;
+    width: 60%;
+    max-width: 650px;
+
 }
 @media (min-width: 768px){
     .navbar, .container-darq {
@@ -348,6 +354,17 @@ canvas {
     .lab-scroll {
         margin: 2rem 0;
     }
+    .globe.position-fixed {
+        position: fixed !important;
+        right: -39%;
+        top: 30%;
+        text-align: right;
+    }
+    .globe canvas{
+        width: 252px !important;
+        height: auto !important;
+        margin: auto;
+    }
 }
 @media (max-width:640px){
     .txt-14{font-size: 14px;}
@@ -377,6 +394,10 @@ canvas {
     .p-5-0{padding: 2rem 0;}
     .p-3-1{padding: 1rem 1rem;}
     .p-3-1-1{padding: 1rem 1rem .5rem;}
+    .globe canvas {
+        width: 200px !important;
+        height: auto !important;
+    }
 }
 @media (max-width:520px){
     .xs-txt-center{text-align: center;}
