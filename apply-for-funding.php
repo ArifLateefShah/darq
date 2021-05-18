@@ -103,7 +103,7 @@
                                     id="step-5">
                                     <legend class="text-left color-white txt-36 lh-45 fw-300">4. Company URL <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
-                                        <input class="form-control" type="url" placeholder="Enter your company URL( http or https to enter value )" name="company-url" id="company-url" required>
+                                        <input class="form-control" type="url" placeholder="Enter your company URL" name="company-url" id="company-url" required>
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
@@ -145,7 +145,7 @@
                                     id="step-7">
                                     <legend class="text-left color-white txt-36 lh-45 fw-300">6. Linkedin Profile of Founders <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
-                                        <input class="form-control" type="url" placeholder="Enter your Linkedin Profile of Founders( http or https to enter value )" name="linedin-profile[0]" id="linedin-profile[0]" required>
+                                        <input class="form-control" type="url" placeholder="Enter your Linkedin Profile of Founders" name="linedin-profile[0]" id="linedin-profile[0]" required>
                                     </p>
                                     <p class="link-list"></p>
                                     <p>
@@ -167,7 +167,7 @@
                                     id="step-8">
                                     <legend class="text-left color-white txt-36 lh-45 fw-300">7. Link to your deck, materials, or supplemental info <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
-                                        <input class="form-control" type="url" placeholder="Link to your deck, materials, or supplemental info ( http or https to enter value )" name="supplemental-info" id="supplemental-info" required>
+                                        <input class="form-control" type="url" placeholder="Link to your deck, materials, or supplemental info" name="supplemental-info" id="supplemental-info" required>
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
@@ -346,6 +346,7 @@
                 this.$formStepParents = this.$form.find("fieldset"),
             
                 this.$nextButton = this.$form.find(".btn-next");
+                this.$input = this.$form.find("input");
                 this.$prevButton = this.$form.find(".btn-prev");
                 this.$editButton = this.$form.find(".btn-edit");
                 this.$resetButton = this.$form.find("[type='reset']");
@@ -394,6 +395,25 @@
                             currentParent.removeClass(app.htmlClasses.visibleClass);
                             app.showNextStep(currentParent, nextParent);
                         }
+            
+                });
+
+                this.$input.on("keyup", function(e){
+                    if (e.key === 'Enter' || e.keyCode === 13) {
+                        e.preventDefault();
+                
+                        // grab current step and next step parent
+                        var $this = $(this),
+                            currentParent = $this.closest("fieldset"),
+                            nextParent = currentParent.next();
+
+                            // if the form is valid hide current step
+                            // trigger next step
+                            if(app.checkForValidForm()){
+                                currentParent.removeClass(app.htmlClasses.visibleClass);
+                                app.showNextStep(currentParent, nextParent);
+                            }
+                    }
             
                 });
             },
@@ -534,7 +554,7 @@
                                 $('#multi-step-form').hide();
                             },
                             error:function(){
-                                $('#questions-success').html("<div class='alert alert-danger'>There is some error</div>");
+                                $('#questions-success').html("<div class='alert alert-danger'>Something went wrong</div>");
                                 $('#questions-form').trigger('reset');
                             },
                             complete:function(){

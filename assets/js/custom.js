@@ -43,7 +43,7 @@ $(function() {
                         $('#contact-form').trigger('reset');
                     },
                     error:function(){
-                        $('#success').html("<div class='alert alert-danger'>There is some error</div>");
+                        $('#success').html("<div class='alert alert-danger'>Something went wrong</div>");
                         $('#contact-form').trigger('reset');
                     },
                     complete:function(){
@@ -73,7 +73,7 @@ $(function() {
                         $('#newsletter-form').trigger('reset');
                     },
                     error:function(){
-                        $('#newsletter-success').html("<div class='alert alert-danger'>There is some error</div>");
+                        $('#newsletter-success').html("<div class='alert alert-danger'>Something went wrong</div>");
                         $('#newsletter-form').trigger('reset');
                     },
                     complete:function(){

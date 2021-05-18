@@ -9,7 +9,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-7 col-sm-10 col-xs-10">
                     <h1 class="txt-48 lh-56 color-white fw-300">Brand Assets</h1>
-                    <p class="txt-16 lh-22 color-h-white fw-400">Thanks for your intrest in Darq.capital. We have a few guidlines for using our brand resources. Please take a moment to familiarize yourself with them.</p>
+                    <p class="txt-16 lh-22 color-h-white fw-400">Thanks for your interest in Darq.capital. We have a few guidelines for using our brand resources. Please take a moment to familiarize yourself with them.</p>
                 </div>
             </div>
         </div>

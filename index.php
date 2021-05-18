@@ -56,10 +56,11 @@ $page_name = "about"; ?>
                                         <div class="col-lg-4">
                                             <img src="./assets/img/unique-scenario.svg" alt="Unique Scenarios">
                                         <h2 class="txt-24 lh-22 color-black fw-600">Unique Scenarios</h2>
-                                        <p class="txt-16 lh-22 fw-400  color-black">Not all ventures, startups, networks or ideas are alike. Sometimes, the nature and purpose of capital changes from scenario to scenario,
-and having been entrepreneurs ourselves, we truly understand that having been entrepreneurs ourselves. <b class="fw-600">Whatever it takes to help you grow, is our
-                                            motto.</b></p>
+                                        <p class="txt-16 lh-22 fw-400  color-black">Not all ventures, startups, networks or ideas are alike. Sometimes, the nature and purpose of capital changes from scenario to scenario, and having been entrepreneurs ourselves, we truly understand that.</p>
                                         </div><!-- /.col-lg-4 -->
+                                        <br/>
+                                        <p class="text-center d-block m-auto"><b class="fw-600">Whatever it takes to help you grow, is our
+                                            motto.</b></p>
                                     </div>
                             </div>
                         </div>
