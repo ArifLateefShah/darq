@@ -51,7 +51,7 @@ $page_name = "about"; ?>
                                             <img src="./assets/img/private-sale.svg" alt="Seed/Private Sale">
                                         <h2 class="txt-24 lh-22 color-black fw-600">Seed/Private Sale</h2>
                                         <p class="txt-16 lh-22 fw-400  color-black">If you already have some product-market fit and need to scale your team and also
-                                            maximize impact, Darq Capital can help by partnering you in this journey.</p>
+                                        minimize impact, Darq Capital can help by partnering you in this journey.</p>
                                         </div><!-- /.col-lg-4 -->
                                         <div class="col-lg-4">
                                             <img src="./assets/img/unique-scenario.svg" alt="Unique Scenarios">

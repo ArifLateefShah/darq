@@ -40,7 +40,7 @@
                                     <p class="txt-12 lh-16 text-center color-h-white">Takes around 2 mins</p>
                                 </fieldset>
                                 <fieldset aria-label="Step Two - Your Email Address" id="step-2">
-                                    <legend class="text-left color-white txt-36 lh-45 fw-300">1. Your Email Address <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">1. Your Email Address <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
                                         <input class="form-control" type="email" placeholder="Enter your email address" name="email-address" id="email-address" required>
                                     </p>
@@ -60,7 +60,7 @@
                                     </div>
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Three - Your Real Name *" id="step-3">
-                                    <legend class="text-left color-white txt-36 lh-45 fw-300">2. Your Real Name <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">2. Give us your name <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
                                         <input class="form-control" type="text" placeholder="Enter your real name" name="real-name" id="real-name" required>
                                     </p>
@@ -80,7 +80,7 @@
                                     </div>
                                 </fieldset>
                                 <fieldset aria-label="Step Four - Company Name" id="step-4">
-                                    <legend class="text-left color-white txt-36 lh-45 fw-300">3. Company Name <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">3. Company Name <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
                                         <input class="form-control" type="text" placeholder="Enter your company name" name="company-name" id="company-name" required>
                                     </p>
@@ -101,7 +101,7 @@
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Five - Company URL" aria-describedby="co-borrower-error"
                                     id="step-5">
-                                    <legend class="text-left color-white txt-36 lh-45 fw-300">4. Company URL <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">4. Company URL <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
                                         <input class="form-control" type="url" placeholder="Enter your company URL( http or https to enter value )" name="company-url" id="company-url" required>
                                     </p>
@@ -122,7 +122,7 @@
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Six - Contact Number" aria-describedby="co-borrower-error"
                                     id="step-6">
-                                    <legend class="text-left color-white txt-36 lh-45 fw-300">5. Contact Number <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">5. Contact Number <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
                                         <input class="form-control" type="text" placeholder="Enter your Contact Number" name="contact-number" id="contact-number" required data-inputmask="'alias': 'phonebe'">
                                     </p>
@@ -143,7 +143,7 @@
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Seven - Linkedin Profile of Founders" aria-describedby="co-borrower-error"
                                     id="step-7">
-                                    <legend class="text-left color-white txt-36 lh-45 fw-300">6. Linkedin Profile of Founders <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">6. Linkedin Profile of Founders <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
                                         <input class="form-control" type="url" placeholder="Enter your Linkedin Profile of Founders( http or https to enter value )" name="linedin-profile[0]" id="linedin-profile[0]" required>
                                     </p>
@@ -165,7 +165,7 @@
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Eight - Link to your deck, materials, or supplemental info" aria-describedby="co-borrower-error"
                                     id="step-8">
-                                    <legend class="text-left color-white txt-36 lh-45 fw-300">7. Link to your deck, materials, or supplemental info <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">7. Link to your deck, materials, or supplemental info <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
                                         <input class="form-control" type="url" placeholder="Link to your deck, materials, or supplemental info ( http or https to enter value )" name="supplemental-info" id="supplemental-info" required>
                                     </p>
@@ -207,7 +207,7 @@
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Ten - Describe the status of your project from the following?" aria-describedby="co-borrower-error"
                                     id="step-10">
-                                    <legend class="text-left color-white txt-36 lh-45 fw-300">9. Describe the status of your project from the following? <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">9. Describe the status of your project from the following? <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
                                         <select class="form-control" id="status-of-your-project" name="status-of-your-project">
                                             <option value="Idea">Idea</option>
@@ -234,7 +234,7 @@
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Eleven - Current Funding Requirement?" aria-describedby="co-borrower-error"
                                     id="step-11">
-                                    <legend class="text-left color-white txt-36 lh-45 fw-300">10. Current Funding Requirement? <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">10. Current Funding Requirement? <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <small class="color-h-white">(Please mention in USD)</small>
                                     <p>
                                     <input class="form-control" type="number" placeholder="Current Funding Requirement" name="current-funding-requirement" id="current-funding-requirement" required>
@@ -277,14 +277,14 @@
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Twelve - Pls mention, if any funding commitments already received." aria-describedby="co-borrower-error"
                                     id="step-13">
-                                    <legend class="text-left color-white txt-36 lh-45 fw-300">12. Any questions or specific needs? <span class="txt-16 txt-al-ct">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">12. Any questions or specific needs?</legend>
                                     <p>
                                         <textarea class="form-control" placeholder="Any questions or specific needs?" rows="4" name="questions" id="questions"></textarea>
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
                                         <!-- <button class="btn bg-color-1 btn-next fw-500 txt-18 lh-22 br-none" type="button" aria-controls="step-14">Ok</button> -->
-                                        <button class="btn btn-success" type="submit">Submit</button> 
+                                        <button class="btn btn-success" type="submit">SUBMIT</button> 
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">11 of 12 answered </p>

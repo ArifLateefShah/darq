@@ -15,7 +15,7 @@
                         <a class="nav-link" href="<?php echo "./darq-labs.php";?> ">Darq.Labs</a>
                     </li>
                     <li class="nav-item <?php if($page_name == "contact-us"){echo 'active';} ?>">
-                        <a class="nav-link" href="<?php echo "./contact-us.php";?> ">Contact Us</a>
+                        <a class="nav-link" href="<?php echo "./contact-us.php";?> ">Contact us</a>
                     </li>
                 </ul>
                 <a class="btn btn-outline-white my-2 my-sm-0" href="<?php echo "./apply-for-funding.php"; ?>">Apply for funding</a>

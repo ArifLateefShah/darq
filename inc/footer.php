@@ -5,7 +5,7 @@
                     <a class="navbar-brand footer-logo" href="./">
                         <img src="./assets/img/darq.png">
                     </a>
-                    <p class="txt-14 lh-17 color-white p-10-0">© 2021 Darq Capital. All Rights Reserved</p>
+                    <p class="txt-14 lh-17 color-white p-10-0 text-uppercase">© 2021 Darq Capital. All Rights Reserved</p>
                 </div>
                 <div class="col-md-4 xs-mb-10">
                     <ul class="footer-links list-group d-flex flex-row flex-wrap">

@@ -354,7 +354,7 @@ background: #eee;
     margin: 0 auto;
 }
 .error-text {
-    color: red;
+    color: #FA3232;
     margin-top: 10px;
     position: relative;
     display: block;
@@ -372,7 +372,7 @@ font-size: 90%;
     box-shadow:none;
     border-radius: unset;
 }
-.multi-step-form input, .multi-step-form input:focus, .multi-step-form textarea, .multi-step-form textarea:focus{
+.multi-step-form input, .multi-step-form input:focus{
     height: 50px;
 }
 .multi-step-form button{
@@ -471,6 +471,7 @@ font-size: 90%;
     position: relative;
     display: block;
 }
+.mandatory{height: 100%;top:-10px;position: relative;}
 /* Multistep form */
 @media (min-width: 768px){
     .navbar, .container-darq {
@@ -541,7 +542,7 @@ font-size: 90%;
         z-index: 1;
     }
     .multistep-form-sec{padding: 10rem 0;}
-    .multi-step-form input, .multi-step-form input:focus, .multi-step-form textarea, .multi-step-form textarea:focus, .multi-step-form button, .multi-step-form button:hover{
+    .multi-step-form input, .multi-step-form input:focus, .multi-step-form button, .multi-step-form button:hover{
         height: 45px;
     }
     .multi-step-form button, .multi-step-form button:hover{

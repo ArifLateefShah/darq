@@ -37,7 +37,7 @@ $page_name = "darq-labs"; ?>
                                         <div class="col-md-8">
                                             <p class="txt-18 lh-22 color-white fw-300 d-block pad-0 m-5-auto"><b class="fw-600">Token Design</b></p>
                                         <p class="txt-16 lh-22 color-white fw-300 d-block"> 
-                                            Leverage our expertise exploring unique token-models, factoring in varied-nuances of Crypto markets to maximise funding outcomes by creating optimal token design including token incentives, unlocking schedule and tokenomics, to weave positive domino effects on investment outcomes for Investors.</p>
+                                            Leverage our expertise exploring unique token-models, factoring in varied-nuances of Crypto markets to maximize funding outcomes by creating optimal token design including token incentives, unlocking schedule and tokenomics, to weave positive domino effects on investment outcomes for Investors.</p>
                                         </div>
                                         
                                     </div>
