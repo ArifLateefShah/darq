@@ -65,7 +65,7 @@ $(function() {
                 $this.prop('disabled', true);
                 var form_data = $("#newsletter-form").serialize();
                 $.ajax({
-                    url:base_url+"/darq/php/newsletter.php",
+                    url:base_url+"/php/newsletter.php",
                     method:"POST",
                     data:form_data,
                     success:function(){
