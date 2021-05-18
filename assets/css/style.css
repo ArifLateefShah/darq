@@ -10,6 +10,7 @@
 .txt-14{font-size: 14px;}
 .txt-16{font-size: 16px;}
 .txt-18{font-size: 18px;}
+.txt-20{font-size: 20px;}
 .txt-24{font-size: 24px;}
 .txt-36{font-size: 36px;}
 .txt-48{font-size: 48px;}
@@ -381,12 +382,6 @@ font-size: 90%;
     background-color: #8FF9AD;
     border-color: #8FF9AD;
 }
-.page-no{
-    width: 150px;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-}
 .tick-img {
     max-width: 60px;
     display: block;
@@ -441,13 +436,49 @@ font-size: 90%;
     padding: 0rem 3.5rem;
 }
 .profile-input{margin: 10px auto;}
-.alert-success, .alert-danger{border: unset;background-color: unset;}
-.alert-danger{color:red;font-weight: 400;}
+.alert-success, .alert-danger{border: unset;background-color: unset;padding: .25rem 0.25rem;}
+.alert-danger{color:#FA3232;font-weight: 400;}
 .alert-success{color: #8FF9AD;font-weight: 400;}
+#newsletter-success .alert-success,#newsletter-success .alert-danger{
+    padding: .25rem 0.25rem;max-width: 330px;
+}
+.page-no{
+    width: 250px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+.page-no p{margin: auto;vertical-align: middle;display: inline-block;}
+.next-prev-box{
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 20px;
+}
+.multi-step-form button.prev-link, .multi-step-form button.next-link{
+    padding: 2px 10px;
+    background: unset;
+    height: 26px;
+    vertical-align: middle;
+    box-shadow: unset;
+    border:.5px solid rgba(255, 255, 255, 0.5);
+}
+/* .multi-step-form button.prev-link:focus, .multi-step-form button.next-link:focus{outline: unset;box-shadow: unset;} */
+.multi-step-form button.prev-link img, .multi-step-form button.next-link img{
+    border-style: none;
+    max-width: 90%;
+    width: 100%;
+    position: relative;
+    display: block;
+}
 /* Multistep form */
 @media (min-width: 768px){
     .navbar, .container-darq {
         max-width: 840px;
+    }
+    #particles-js canvas{
+        position: absolute;
+        top:0;
     }
 }
 @media (min-width: 992px){
@@ -516,6 +547,20 @@ font-size: 90%;
     .multi-step-form button, .multi-step-form button:hover{
         padding: 0rem 2rem;
     }
+    .multi-step-form button.prev-link:hover, .multi-step-form button.next-link:hover{
+        padding: 2px 10px;
+        background: unset;
+        height: 26px;
+        vertical-align: middle;
+        box-shadow: unset;
+        border:.5px solid rgba(255, 255, 255, 0.5);
+    }
+    #particles-js{height: auto;}
+    #particles-js canvas{
+        position: absolute;
+        top:0;
+    }
+    .btn-outline-white{margin: 10px;}
 }
 @media (max-width:640px){
     .txt-14{font-size: 14px;}
@@ -531,7 +576,6 @@ font-size: 90%;
     .banner-sec {
         padding: 20% 0 13%;
     }
-    
     
     
 }

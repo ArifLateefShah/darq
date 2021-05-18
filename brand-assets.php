@@ -1,6 +1,6 @@
 <?php require_once('inc/header.php');
     $page_name = "brand-assets"; ?>
-    <title>DarQ - Brand Assets</title>
+    <title>DarQ</title>
   </head>
   <body>
  <?php require_once('inc/nav.php'); ?>
@@ -102,7 +102,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <h2 class="txt-48 lh-56 color-black fw-300">Download</h2>
-                                <p class="txt-16 lh-22 color-h-black fw-400 d-block pad-0 m-5-auto">You can download <b class="color-6">EPS</b> or <b class="color-6">PNG</b> files. Please don’t alter the Darq.capital logo.</p>
+                                <p class="txt-16 lh-22 color-h-black fw-400 d-block pad-0 m-5-auto">You can download <a class="color-6 fw-600" href="./assets/DARQ-EPS.zip">EPS</a> or <a class="color-6 fw-600" href="./assets/DARQ-PNG.zip">PNG<a> files. Please don’t alter the Darq.capital logo.</p>
                         </div>
                     </div>
                     <br>

@@ -1,6 +1,6 @@
 <?php require_once('inc/header.php');
 $page_name = "contact-us"; ?>
-    <title>DarQ - Contact Us</title>
+    <title>DarQ</title>
   </head>
   <body>
  <?php require_once('inc/nav.php'); ?>
@@ -9,6 +9,7 @@ $page_name = "contact-us"; ?>
             <div class="row justify-content-center">
                 <div class="col-md-8 col-sm-10">
                     <h1 class="txt-48 lh-56 color-white fw-300">Contact us</h1>
+                    <p class="txt-18 lh-22 color-white fw-300">Please fill the form below and one of our representative(s) will be available to support you.</p>
                     <br>
                     <div class="row">
                         <div class="col-md-12 mx-auto">

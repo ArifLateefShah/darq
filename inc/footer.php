@@ -34,12 +34,11 @@
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
-    <script src="./assets/js/bootstrap.bundle.min.js" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.6/jqBootstrapValidation.js"></script>
+    <?php if($page_name == "about"){ ?>
     <script src="./assets/js/particles.js"></script>
-<script src="./assets/js/app.js"></script>
-<script src="./assets/js/stats.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/stats.js"></script>
+    <?php } ?>
     <script>
 //   var count_particles, stats, update;
 //   stats = new Stats;

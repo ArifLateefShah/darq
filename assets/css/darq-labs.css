@@ -250,7 +250,10 @@ footer{background-color: #000;padding: 6% 0;}
 .subscribe-form .show>.btn-outline-secondary.dropdown-toggle,
 .subscribe-form button:hover, .subscribe-form button:active, .subscribe-form button:visited, .subscribe-form button:focus{background-color: unset;border-radius: unset;border-color: unset;box-shadow: unset;}
 .alert-success, .alert-danger{border: unset;background-color: unset;}
-.alert-danger{color:red;font-weight: 400;}
+#newsletter-success .alert-success,#newsletter-success .alert-danger{
+    padding: .25rem 0.25rem;max-width: 330px;
+}
+.alert-danger{color:#FA3232;font-weight: 400;}
 .alert-success{color: #8FF9AD;font-weight: 400;}
 /* Footer */
 
@@ -365,6 +368,7 @@ canvas {
         height: auto !important;
         margin: auto;
     }
+    .btn-outline-white{margin: 10px;}
 }
 @media (max-width:640px){
     .txt-14{font-size: 14px;}

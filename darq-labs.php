@@ -1,6 +1,6 @@
 <?php require_once('inc/header.php');
 $page_name = "darq-labs"; ?>
-    <title>DarQ - Labs</title>
+    <title>DarQ</title>
   </head>
   <body>
  <?php require_once('inc/nav.php'); ?>
@@ -9,7 +9,7 @@ $page_name = "darq-labs"; ?>
             <div class="row justify-content-center">
                 <div class="col-md-10">
                     <h1 class="txt-48 lh-56 color-white fw-300">Accelerate Impact</h1>
-                    <p class="txt-16 lh-22 color-h-white fw-400">Work with us to accelerate impact by leveraging our expertise, analytical rigour and support-systems to maximise your chances of growth and funding-success. Capital alone does not solve for everything, and, we are always available to support hands-on, whenever you need us.</p>
+                    <p class="txt-16 lh-22 color-h-white fw-400">Work with us to accelerate impact by leveraging our expertise, analytical rigor and support-systems to maximize your chances of growth and funding-success. Capital alone does not solve for everything, and, we are always available to support hands-on, whenever you need us.</p>
                 </div>
             </div>
         </div>
@@ -108,7 +108,7 @@ $page_name = "darq-labs"; ?>
                                         <div class="col-md-8">
                                             <p class="txt-18 lh-22 color-white fw-300 d-block pad-0 m-5-auto"><b class="fw-600">Community</b></p>
                                         <p class="txt-16 lh-22 color-white fw-300 d-block">
-                                        Darqlabs opens up access to a network of seasoned founders, experts to generate impact on the ground, right from being a sounding-board to even getting their hands dirty to help solve your problems.
+                                        Darq.Labs opens up access to a network of seasoned founders, experts to generate impact on the ground, right from being a sounding-board to even getting their hands dirty to help solve your problems.
                                         </p>
                                         </div>
                                         

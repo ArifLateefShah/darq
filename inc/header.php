@@ -20,4 +20,4 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
     <script src="./assets/js/bootstrap.bundle.min.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.6/jqBootstrapValidation.js"></script>
-    <script src="./assets/js/custom.js" ></script>
+    <!-- <script src="./assets/js/custom.js" ></script> -->

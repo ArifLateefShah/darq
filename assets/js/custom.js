@@ -65,11 +65,11 @@ $(function() {
                 $this.prop('disabled', true);
                 var form_data = $("#newsletter-form").serialize();
                 $.ajax({
-                    url:base_url+"/php/newsletter.php",
+                    url:base_url+"/darq/php/newsletter.php",
                     method:"POST",
                     data:form_data,
                     success:function(){
-                        $('#newsletter-success').html("<div class='alert alert-success'><strong>You are successfully subscribed. </strong></div>");
+                        $('#newsletter-success').html("<div class='alert alert-success'><strong class='txt-14 lh-22'>Thank you for subscribing. We will keep you updated on Darq.capital\’s developments.</strong></div>");
                         $('#newsletter-form').trigger('reset');
                     },
                     error:function(){

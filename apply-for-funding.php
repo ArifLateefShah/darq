@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>DarQ - Apply for funding</title>
+        <title>DarQ</title>
         <meta name="description" content="">
         <link rel="canonical" href="/">
         <link rel="icon" href="./favicon.ico">
@@ -51,7 +51,11 @@
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">0 of 12 answered </p>
                                         <div class="next-prev-box">
-                                            <div class="prev-link"></div><div class="next-link"></div>
+                                            <button class="prev-link btn-prev" type="button"  aria-controls="step-1">
+                                                <img src="./assets/img/prev.png" alt="Previous Link">
+                                            </button><button class="next-link btn-next" type="button" aria-controls="step-3">
+                                                <img src="./assets/img/next.png" alt="Previous Link">
+                                            </button>
                                         </div>
                                     </div>
                                 </fieldset>
@@ -66,6 +70,13 @@
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">1 of 12 answered </p>
+                                        <div class="next-prev-box">
+                                            <button class="prev-link btn-prev" type="button"  aria-controls="step-2">
+                                                <img src="./assets/img/prev.png" alt="Previous Link">
+                                            </button><button class="next-link btn-next" type="button" aria-controls="step-4">
+                                                <img src="./assets/img/next.png" alt="Previous Link">
+                                            </button>
+                                        </div>
                                     </div>
                                 </fieldset>
                                 <fieldset aria-label="Step Four - Company Name" id="step-4">
@@ -79,13 +90,20 @@
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">2 of 12 answered </p>
+                                        <div class="next-prev-box">
+                                            <button class="prev-link btn-prev" type="button"  aria-controls="step-3">
+                                                <img src="./assets/img/prev.png" alt="Previous Link">
+                                            </button><button class="next-link btn-next" type="button" aria-controls="step-5">
+                                                <img src="./assets/img/next.png" alt="Previous Link">
+                                            </button>
+                                        </div>
                                     </div>
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Five - Company URL" aria-describedby="co-borrower-error"
                                     id="step-5">
                                     <legend class="text-left color-white txt-36 lh-45 fw-300">4. Company URL <span class="txt-16 txt-al-ct">*</span></legend>
                                     <p>
-                                        <input class="form-control" type="url" placeholder="Enter your company URL" name="company-url" id="company-url" required>
+                                        <input class="form-control" type="url" placeholder="Enter your company URL( http or https to enter value )" name="company-url" id="company-url" required>
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
@@ -93,6 +111,13 @@
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">3 of 12 answered </p>
+                                        <div class="next-prev-box">
+                                            <button class="prev-link btn-prev" type="button"  aria-controls="step-4">
+                                                <img src="./assets/img/prev.png" alt="Previous Link">
+                                            </button><button class="next-link btn-next" type="button" aria-controls="step-6">
+                                                <img src="./assets/img/next.png" alt="Previous Link">
+                                            </button>
+                                        </div>
                                     </div>
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Six - Contact Number" aria-describedby="co-borrower-error"
@@ -107,13 +132,20 @@
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">4 of 12 answered </p>
+                                        <div class="next-prev-box">
+                                            <button class="prev-link btn-prev" type="button"  aria-controls="step-5">
+                                                <img src="./assets/img/prev.png" alt="Previous Link">
+                                            </button><button class="next-link btn-next" type="button" aria-controls="step-7">
+                                                <img src="./assets/img/next.png" alt="Previous Link">
+                                            </button>
+                                        </div>
                                     </div>
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Seven - Linkedin Profile of Founders" aria-describedby="co-borrower-error"
                                     id="step-7">
                                     <legend class="text-left color-white txt-36 lh-45 fw-300">6. Linkedin Profile of Founders <span class="txt-16 txt-al-ct">*</span></legend>
                                     <p>
-                                        <input class="form-control" type="url" placeholder="Enter your Linkedin Profile of Founders" name="linedin-profile[0]" id="linedin-profile[0]" required>
+                                        <input class="form-control" type="url" placeholder="Enter your Linkedin Profile of Founders( http or https to enter value )" name="linedin-profile[0]" id="linedin-profile[0]" required>
                                     </p>
                                     <p class="link-list"></p>
                                     <p>
@@ -122,13 +154,20 @@
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">5 of 12 answered </p>
+                                        <div class="next-prev-box">
+                                            <button class="prev-link btn-prev" type="button"  aria-controls="step-6">
+                                                <img src="./assets/img/prev.png" alt="Previous Link">
+                                            </button><button class="next-link btn-next" type="button" aria-controls="step-8">
+                                                <img src="./assets/img/next.png" alt="Previous Link">
+                                            </button>
+                                        </div>
                                     </div>
                                 </fieldset>
-                                <fieldset role="radiogroup" aria-label="Step Eight - Linkedin Profile of Founders" aria-describedby="co-borrower-error"
+                                <fieldset role="radiogroup" aria-label="Step Eight - Link to your deck, materials, or supplemental info" aria-describedby="co-borrower-error"
                                     id="step-8">
                                     <legend class="text-left color-white txt-36 lh-45 fw-300">7. Link to your deck, materials, or supplemental info <span class="txt-16 txt-al-ct">*</span></legend>
                                     <p>
-                                        <input class="form-control" type="url" placeholder="Link to your deck, materials, or supplemental info" name="supplemental-info" id="supplemental-info" required>
+                                        <input class="form-control" type="url" placeholder="Link to your deck, materials, or supplemental info ( http or https to enter value )" name="supplemental-info" id="supplemental-info" required>
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
@@ -136,6 +175,13 @@
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">6 of 12 answered </p>
+                                        <div class="next-prev-box">
+                                            <button class="prev-link btn-prev" type="button"  aria-controls="step-7">
+                                                <img src="./assets/img/prev.png" alt="Previous Link">
+                                            </button><button class="next-link btn-next" type="button" aria-controls="step-9">
+                                                <img src="./assets/img/next.png" alt="Previous Link">
+                                            </button>
+                                        </div>
                                     </div>
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Nine - Short description of your product" aria-describedby="co-borrower-error"
@@ -150,6 +196,13 @@
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">7 of 12 answered </p>
+                                        <div class="next-prev-box">
+                                            <button class="prev-link btn-prev" type="button"  aria-controls="step-8">
+                                                <img src="./assets/img/prev.png" alt="Previous Link">
+                                            </button><button class="next-link btn-next" type="button" aria-controls="step-10">
+                                                <img src="./assets/img/next.png" alt="Previous Link">
+                                            </button>
+                                        </div>
                                     </div>
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Ten - Describe the status of your project from the following?" aria-describedby="co-borrower-error"
@@ -170,6 +223,13 @@
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">8 of 12 answered </p>
+                                        <div class="next-prev-box">
+                                            <button class="prev-link btn-prev" type="button"  aria-controls="step-9">
+                                                <img src="./assets/img/prev.png" alt="Previous Link">
+                                            </button><button class="next-link btn-next" type="button" aria-controls="step-11">
+                                                <img src="./assets/img/next.png" alt="Previous Link">
+                                            </button>
+                                        </div>
                                     </div>
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Eleven - Current Funding Requirement?" aria-describedby="co-borrower-error"
@@ -185,6 +245,13 @@
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">9 of 12 answered </p>
+                                        <div class="next-prev-box">
+                                            <button class="prev-link btn-prev" type="button"  aria-controls="step-10">
+                                                <img src="./assets/img/prev.png" alt="Previous Link">
+                                            </button><button class="next-link btn-next" type="button" aria-controls="step-12">
+                                                <img src="./assets/img/next.png" alt="Previous Link">
+                                            </button>
+                                        </div>
                                     </div>
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Twelve - Pls mention, if any funding commitments already received." aria-describedby="co-borrower-error"
@@ -199,6 +266,13 @@
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">10 of 12 answered </p>
+                                        <div class="next-prev-box">
+                                            <button class="prev-link btn-prev" type="button"  aria-controls="step-11">
+                                                <img src="./assets/img/prev.png" alt="Previous Link">
+                                            </button><button class="next-link btn-next" type="button" aria-controls="step-13">
+                                                <img src="./assets/img/next.png" alt="Previous Link">
+                                            </button>
+                                        </div>
                                     </div>
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Twelve - Pls mention, if any funding commitments already received." aria-describedby="co-borrower-error"
@@ -214,6 +288,11 @@
                                     </p>
                                     <div class="page-no">
                                         <p class="txt-14 lh-22 color-h-white">11 of 12 answered </p>
+                                        <div class="next-prev-box">
+                                            <button class="prev-link btn-prev" type="button"  aria-controls="step-12">
+                                                <img src="./assets/img/prev.png" alt="Previous Link">
+                                            </button>
+                                        </div>
                                     </div>
                                 </fieldset>
                                 <!-- <fieldset aria-label="Step Five" id="step-6">
@@ -235,7 +314,7 @@
                 </div>
             </div>
         </section>
-        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
         <script src="./assets/js/bootstrap.bundle.min.js" ></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
         <script type='text/javascript' src="https://rawgit.com/RobinHerbots/jquery.inputmask/3.x/dist/jquery.inputmask.bundle.js"></script> 
@@ -261,7 +340,7 @@
             },
             
             cacheDOM: function(){
-                if($(".multi-step-form").size() === 0){ return; }
+                if($(".multi-step-form").length === 0){ return; }
                 this.$formParent = $(".multi-step-form");
                 this.$form = this.$formParent.find("form");
                 this.$formStepParents = this.$form.find("fieldset"),
@@ -451,7 +530,7 @@
                             method:"POST",
                             data:form_data,
                             success:function(){
-                                $('#questions-success').html("<div><span class='checkmark'><div class='checkmark_circle'></div><div class='checkmark_stem'></div><div class='checkmark_kick'></div></span><strong class='d-block color-white txt-48 lh-56 fw-300 text-center margin-auto'>Thank you for taking the time to apply.</strong><br><br><p class='color-white txt-16 lh-22 text-center margin-auto'>Your application has been received</p></div>");
+                                $('#questions-success').html("<div><span class='checkmark'><div class='checkmark_circle'></div><div class='checkmark_stem'></div><div class='checkmark_kick'></div></span><strong class='d-block color-white txt-48 lh-56 fw-300 text-center margin-auto'>Thank you for applying to Darq.capital.</strong><br><br><p class='color-white txt-20 lh-22 text-center margin-auto'>Your application has been received. We will review your application and get back to you.</p></div>");
                                 $('#multi-step-form').hide();
                             },
                             error:function(){
