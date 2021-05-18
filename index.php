@@ -16,7 +16,7 @@ $page_name = "about"; ?>
     </section>
     <section class="section-2">
         <video autoplay muted loop id="overlayVideo" poster="./assets/img/video-placeholder.png" class="hide-sm">
-            <source src="./assets/video/overlay.mp4" type="video/mp4">
+            <source src="./assets/video/overlay.mov" type="video/mp4">
             Your browser does not support HTML5 video.
         </video>
         <div class="container content">

@@ -131,7 +131,7 @@ header .navbar-brand img{max-width: 220px;}
 }
 .section-2{
     position: relative;
-    background-image: linear-gradient(to right, rgba(164, 255, 250, 0.85), rgba(143, 249, 173, 0.85));
+    /* background-image: linear-gradient(to right, rgba(164, 255, 250, 0.85), rgba(143, 249, 173, 0.85)); */
 }
 #overlayVideo {
     position: relative;
