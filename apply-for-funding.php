@@ -104,7 +104,7 @@
                                     id="step-5">
                                     <legend class="text-left color-white txt-36 lh-45 fw-300">4. Company URL <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
-                                        <input class="form-control" type="url" placeholder="Enter your company URL" name="company-url" id="company-url" required>
+                                        <input class="form-control" type="url" placeholder="Enter your company URL (For e.g. https://www.example.com)" name="company-url" id="company-url" required>
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
@@ -146,7 +146,7 @@
                                     id="step-7">
                                     <legend class="text-left color-white txt-36 lh-45 fw-300">6. Linkedin Profile of Founders <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
-                                        <input class="form-control" type="url" placeholder="Enter your Linkedin Profile of Founders" name="linedin-profile[0]" id="linedin-profile[0]" required>
+                                        <input class="form-control" type="url" placeholder="Enter your Linkedin Profile of Founders (For e.g. https://www.example.com)" name="linedin-profile[0]" id="linedin-profile[0]" required>
                                     </p>
                                     <p class="link-list"></p>
                                     <p>
@@ -168,7 +168,7 @@
                                     id="step-8">
                                     <legend class="text-left color-white txt-36 lh-45 fw-300">7. Link to your deck, materials, or supplemental info <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
-                                        <input class="form-control" type="url" placeholder="Link to your deck, materials, or supplemental info" name="supplemental-info" id="supplemental-info" required>
+                                        <input class="form-control" type="url" placeholder="Link to your deck, materials, or supplemental info (For e.g. https://www.example.com)" name="supplemental-info" id="supplemental-info" required>
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
@@ -238,7 +238,7 @@
                                     <legend class="text-left color-white txt-36 lh-45 fw-300">10. Current Funding Requirement? <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <small class="color-h-white">(Please mention in USD)</small>
                                     <p>
-                                    <input class="form-control" type="number" placeholder="Current Funding Requirement" name="current-funding-requirement" id="current-funding-requirement" required>
+                                    <input class="form-control" type="number" min="0" placeholder="Current Funding Requirement" name="current-funding-requirement" id="current-funding-requirement" required>
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
@@ -715,7 +715,7 @@
             
             $(":input").inputmask();
 
-            $("#contact-number").inputmask({"mask": "999-9999"});
+            $("#contact-number").inputmask({"mask": "9999-9999"});
 
 
             $(document.body).on('click', '.btn-remove-profile-link' ,function(){
@@ -729,7 +729,7 @@
 
                 $('.link-list').append(''+
                         '<div class="input-group profile-input">'+
-                            '<input class="form-control" type="url" placeholder="Enter your Linkedin Profile of Founders" name="linedin-profile['+index+']" id="linedin-profile['+index+']" required>'+
+                            '<input class="form-control" type="url" placeholder="Enter your Linkedin Profile of Founders (For e.g. https://www.example.com)" name="linedin-profile['+index+']" id="linedin-profile['+index+']" required>'+
                             '<span class="input-group-btn">'+
                                 '<button class="btn btn-danger btn-remove-profile-link" type="button"><span class="glyphicon glyphicon-remove ">X</span></button>'+
                             '</span>'+
@@ -737,6 +737,7 @@
                 );
 
             });
+            
         </script>
     </body>
 </html>
