@@ -5,8 +5,8 @@
                     <a class="navbar-brand footer-logo" href="./">
                         <img src="./assets/img/darq.png">
                     </a>
-                    <br><br>
-                    <p class="txt-14 lh-17 color-white p-10-0">Whatever it takes to help you grow</p>
+                    <br>
+                    <p class="txt-14 lh-17 color-1 p-10-0">Whatever it takes to help you grow, is our motto</p>
                     <p class="txt-14 lh-17 color-white p-10-0 text-uppercase">© 2021 Darq Capital. All Rights Reserved</p>
                 </div>
                 <div class="col-md-4 xs-mb-10">

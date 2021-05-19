@@ -1,6 +1,6 @@
 <?php require_once('inc/header.php');
 $page_name = "contact-us"; ?>
-    <title>DarQ</title>
+    <title>Darq.Capital - Cryptocurrencies, Blockchain, AI, AR & Quantum Computing</title>
   </head>
   <body>
  <?php require_once('inc/nav.php'); ?>

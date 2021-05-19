@@ -1,6 +1,6 @@
 <?php require_once('inc/header.php');
 $page_name = "about"; ?>
-    <title>DarQ</title>
+    <title>Darq.Capital - Cryptocurrencies, Blockchain, AI, AR & Quantum Computing</title>
   </head>
   <body>
  <?php require_once('inc/nav.php'); ?>
@@ -31,7 +31,7 @@ $page_name = "about"; ?>
         </div>
     </section>
     <section class="section-3">
-        <div class="container br-tl-35 br-br-35 bg-color-white xs-wd-90">
+        <div class="container br-tl-35 br-br-35 bg-color-white xs-wd-90 pad-0">
             <div class="row">
                 <div class="col-md-12">
                     <div class="container pad-5">
@@ -58,12 +58,13 @@ $page_name = "about"; ?>
                                         <h2 class="txt-24 lh-22 color-black fw-600">Unique Scenarios</h2>
                                         <p class="txt-16 lh-22 fw-400  color-black">Not all ventures, startups, networks or ideas are alike. Sometimes, the nature and purpose of capital changes from scenario to scenario, and having been entrepreneurs ourselves, we truly understand that.</p>
                                         </div><!-- /.col-lg-4 -->
-                                        <br/>
-                                        <p class="text-center d-block m-auto"><b class="fw-600">Whatever it takes to help you grow, is our
-                                            motto.</b></p>
+                                        
                                     </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="pad-3 border-top">
+                        <p class="text-center d-block m-auto"><b class="fw-600 txt-16 lh-22">“Whatever it takes to help you grow, is our motto”</b></p>
                     </div>
                 </div>
             </div>

@@ -3,12 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>DarQ</title>
+        <title>Darq.Capital - Cryptocurrencies, Blockchain, AI, AR & Quantum Computing</title>
         <meta name="description" content="">
         <link rel="canonical" href="/">
         <link rel="icon" href="./favicon.ico">
         <!-- Bootstrap core CSS -->
         <link href="./assets/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/intlTelInput.css">
         <link href="./assets/css/style.css" rel="stylesheet">
         <style>
             header {
@@ -318,7 +319,34 @@
         <script src="./assets/js/bootstrap.bundle.min.js" ></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
         <script type='text/javascript' src="https://rawgit.com/RobinHerbots/jquery.inputmask/3.x/dist/jquery.inputmask.bundle.js"></script> 
+        <script src="./assets/js/intlTelInput.js"></script>
         <script type="text/javascript">
+
+            
+        var contact_number = document.querySelector("#contact-number");
+        var iti = window.intlTelInput(contact_number  , {
+            // allowDropdown: false,
+            // autoHideDialCode: false,
+            // autoPlaceholder: "off",
+            // dropdownContainer: document.body,
+            // excludeCountries: ["us"],
+            // formatOnDisplay: false,
+            // geoIpLookup: function(callback) {
+            //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+            //     var countryCode = (resp && resp.country) ? resp.country : "";
+            //     callback(countryCode);
+            //   });
+            // },
+            hiddenInput: "full_number",
+            // initialCountry: "auto",
+            // localizedCountries: { 'de': 'Deutschland' },
+            // nationalMode: false,
+            // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+            // placeholderNumberType: "MOBILE",
+            preferredCountries: ['in'],
+            separateDialCode: true,
+            utilsScript: "./assets/js/utils.js",
+            });
             /**
              * @name Multi-step form - WIP
              * @description Prototype for basic multi-step form
@@ -550,7 +578,7 @@
                             method:"POST",
                             data:form_data,
                             success:function(){
-                                $('#questions-success').html("<div><span class='checkmark'><div class='checkmark_circle'></div><div class='checkmark_stem'></div><div class='checkmark_kick'></div></span><strong class='d-block color-white txt-48 lh-56 fw-300 text-center margin-auto'>Thank you for applying to Darq.capital.</strong><br><br><p class='color-white txt-20 lh-22 text-center margin-auto'>Your application has been received. We will review your application and get back to you.</p></div>");
+                                $('#questions-success').html("<div><img src='./assets/img/tick.png' class='tick-img'><strong class='d-block color-white txt-48 lh-56 fw-300 text-center margin-auto'>Thank you for applying to Darq.capital.</strong><br><br><p class='color-white txt-20 lh-22 text-center margin-auto'>Your application has been received. We will review your application and get back to you.</p></div>");
                                 $('#multi-step-form').hide();
                             },
                             error:function(){
@@ -687,7 +715,7 @@
             
             $(":input").inputmask();
 
-            $("#contact-number").inputmask({"mask": "(999) 999-9999"});
+            $("#contact-number").inputmask({"mask": "999-9999"});
 
 
             $(document.body).on('click', '.btn-remove-profile-link' ,function(){

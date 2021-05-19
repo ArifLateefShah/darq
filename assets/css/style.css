@@ -67,6 +67,7 @@
 .hide{display: none}
 .pad-10-1{padding: 10% 0%;}
 .p-10-0{padding: 10px 0;}
+.pad-3{padding: 3%;}
 
 html, body {
     width: 100%;
@@ -155,6 +156,7 @@ header .navbar-brand img{max-width: 220px;}
     background-size: cover;
     background-position:center;
     padding: 7% 0;
+    margin-top: -7px;;
 }
 .pad-5{padding: 5%;}
 .arrow-underline{
@@ -385,7 +387,7 @@ font-size: 90%;
 .tick-img {
     max-width: 60px;
     display: block;
-    margin: auto;
+    margin: 5px auto;
     text-align: center;
 }
 .checkmark {
@@ -472,6 +474,8 @@ font-size: 90%;
     display: block;
 }
 .mandatory{height: 100%;top:-10px;position: relative;}
+.border-top{border-top: 0.3px solid rgba(0, 0, 0, 0.35);}
+.iti--separate-dial-code .iti__selected-dial-code{color: #fff;}
 /* Multistep form */
 @media (min-width: 768px){
     .navbar, .container-darq {
