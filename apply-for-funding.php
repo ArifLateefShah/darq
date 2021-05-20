@@ -8,7 +8,7 @@
         <link rel="canonical" href="/">
         <link rel="icon" href="./favicon.ico">
         <!-- Bootstrap core CSS -->
-        <link href="./assets/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+        <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="./assets/css/intlTelInput.css">
         <link href="./assets/css/style.css" rel="stylesheet">
         <style>
