@@ -7,6 +7,7 @@ function set_questions_data() {
     $listURL = "https://api.airtable.com/v0/appjRlGKNAG1ucgLw/questions";
     $ch = curl_init($listURL); // Initialise cURL
     $linedin_profile = implode(', ', $_POST['linedin-profile']);
+    $supplemental_info = implode(', ', $_POST['supplemental-info']);
     $post_data = array( 'fields' => array(
         'email-address' => $_POST['email-address'],
         'real-name' => $_POST['real-name'],
@@ -14,7 +15,7 @@ function set_questions_data() {
         'company-url' => $_POST['company-url'],
         'contact-number' => $_POST['full_number'],
         'linedin-profile' => $linedin_profile,
-        'supplemental-info' => $_POST['supplemental-info'],
+        'supplemental-info' => $supplemental_info,
         'short-description' => $_POST['short-description'],
         'status-of-your-project' => $_POST['status-of-your-project'],
         'current-funding-requirement' => (float)$_POST['current-funding-requirement'],
