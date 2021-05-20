@@ -297,7 +297,7 @@ canvas {
 
 @media (max-width:992px){
     .section-2 .content{
-        top: 10%;
+        top: 5%;
         max-width: 80%;
     }
     .content-p{
@@ -306,6 +306,7 @@ canvas {
     }
 }
 @media (max-width:768px){
+    .section-2 .content{top: 7%;}
     .show-sm{display: block;}
     .hide-sm{display: none;}
     .sm-txt-center{text-align: center;}
