@@ -42,6 +42,7 @@
 .color-white {color: #FFFFFF;}
 .color-h-white {color: rgba(255, 255, 255, 0.75);}
 .color-black {color: #000000;}
+.color-h-black {color: rgba(0,0,0,.75);}
 .color-light-black{color: rgba(0, 0, 0, 0.9);}
 .color-1 {color: #8FF9AD;}
 .color-2 {color: #F7F99D;}
