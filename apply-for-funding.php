@@ -715,7 +715,7 @@
             
             $(":input").inputmask();
 
-            $("#contact-number").inputmask({"mask": "9999-9999"});
+            $("#contact-number").inputmask({"mask": "9999-999-999"});
 
 
             $(document.body).on('click', '.btn-remove-profile-link' ,function(){
