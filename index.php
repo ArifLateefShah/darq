@@ -5,7 +5,7 @@ $page_name = "about"; ?>
   <body>
  <?php require_once('inc/nav.php'); ?>
     <section class="banner-sec bg-color-0" id="particles-js">
-        <div class="container-darq z-1">
+        <div class="container-darq z-1 home-banner-content">
             <div class="row">
                 <div class="col-md-10 col=-sm-11 col-xs-12">
                     <h1 class="color-white lh-56 txt-48 fw-300 text-sm">We’re a new-age capital company investing in ventures focused in <span class="color-1">Cryptocurrencies,</span> <span class="color-2">Blockchain,</span> <span class="color-3">AI,</span> <span class="color-4">AR</span> & <span class="color-5">Quantum Computing.</span></h1>

@@ -5,7 +5,7 @@ $page_name = "darq-labs"; ?>
   <body>
  <?php require_once('inc/nav.php'); ?>
    <section class="bg-color-0 lab-banner-sec">
-        <div class="container text-center">
+        <div class="container-darq text-center">
             <div class="row justify-content-center">
                 <div class="col-md-12">
                     <h1 class="txt-48 lh-56 color-white fw-300 text-left">Accelerate Impact</h1>

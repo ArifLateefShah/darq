@@ -307,7 +307,7 @@ canvas {
     padding-left: 7%;
   }
 @media (min-width:1300px){
-    .globe canvas{max-height: 300px !important;max-width: 100% !important;width: 550px !important;height: 200px !important;}
+    .globe canvas{max-height: 300px !important;max-width: 100% !important;width: 550px !important;height: 150px !important;}
 }
 @media (min-width: 768px){
     .navbar, .container-darq {
@@ -432,7 +432,7 @@ canvas {
         padding: 20% 0 13%;
     }
     .scroll-sec{padding: 5% 0 15%;}
-    
+    .globe{display: none;}
     
 }
 @media (max-width: 576px){
@@ -445,13 +445,13 @@ canvas {
     .p-5-0{padding: 2rem 0;}
     .p-3-1{padding: 1rem 1rem;}
     .p-3-1-1{padding: 1rem 1rem .5rem;}
-    .globe {
+    /* .globe {
         max-width: 100%;
     }
     .globe canvas {
         width: 220px !important;
         height: 220px !important;
-    }
+    } */
 }
 @media (max-width:520px){
     .xs-txt-center{text-align: center;}

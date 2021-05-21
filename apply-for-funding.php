@@ -104,7 +104,7 @@
                                     id="step-5">
                                     <legend class="text-left color-white txt-36 lh-45 fw-300">4. Company URL <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
-                                        <input class="form-control" type="url" value="https://" placeholder="Enter your company URL (For e.g. https://www.example.com)" name="company-url" id="company-url" required>
+                                        <input class="form-control" type="url" value="https://" placeholder="Enter your company URL (For e.g. https://www.example.com)" name="company-url" id="company-url" required onfocus="this.setSelectionRange(this.value.length, this.value.length);">
                                     </p>
                                     <p>
                                         <!-- <button class="btn btn-default btn-prev" type="button" aria-controls="step-1">Previous</button> -->
@@ -146,7 +146,7 @@
                                     id="step-7">
                                     <legend class="text-left color-white txt-36 lh-45 fw-300">6. Linkedin Profile of Founders <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
-                                        <input class="form-control" type="url" value="https://" placeholder="Enter your Linkedin Profile of Founders (For e.g. https://www.example.com)" name="linedin-profile[0]" id="linedin-profile[0]" required>
+                                        <input class="form-control" type="url" value="https://" placeholder="Enter your Linkedin Profile of Founders (For e.g. https://www.example.com)" name="linedin-profile[0]" id="linedin-profile[0]" required onfocus="this.setSelectionRange(this.value.length, this.value.length);">
                                     </p>
                                     <p class="link-list"></p>
                                     <p>
@@ -168,7 +168,7 @@
                                     id="step-8">
                                     <legend class="text-left color-white txt-36 lh-45 fw-300">7. Link to your deck, materials, or supplemental info <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
-                                        <input class="form-control" type="url" value="https://" placeholder="Link to your deck, materials, or supplemental info (For e.g. https://www.example.com)" name="supplemental-info[0]" id="supplemental-info[0]" required>
+                                        <input class="form-control" type="url" value="https://" placeholder="Link to your deck, materials, or supplemental info (For e.g. https://www.example.com)" name="supplemental-info[0]" id="supplemental-info[0]" required onfocus="this.setSelectionRange(this.value.length, this.value.length);">
                                     </p>
                                     <p class="supplemental-info-list"></p>
                                     <p>
@@ -731,10 +731,10 @@
 
                 $('.link-list').append(''+
                         '<div class="input-group profile-input">'+
-                            '<input class="form-control" type="url" value="https://" placeholder="Enter your Linkedin Profile of Founders (For e.g. https://www.example.com)" name="linedin-profile['+index+']" id="linedin-profile['+index+']" required>'+
                             '<span class="input-group-btn">'+
-                                '<button class="btn btn-danger btn-remove-profile-link" type="button"><span class="glyphicon glyphicon-remove ">X</span></button>'+
+                                '<button class="btn btn-danger btn-remove-profile-link" type="button"><img src="./assets/img/delete.png" alt="Delete" class="delete-icon"></button>'+
                             '</span>'+
+                            '<input class="form-control" type="url" value="https://" placeholder="Enter your Linkedin Profile of Founders (For e.g. https://www.example.com)" name="linedin-profile['+index+']" id="linedin-profile['+index+']" required onfocus="this.setSelectionRange(this.value.length, this.value.length);">'+
                         '</div>'
                 );
 
@@ -746,10 +746,10 @@
 
                 $('.supplemental-info-list').append(''+
                         '<div class="input-group supplemental-input">'+
-                            '<input class="form-control" type="url" value="https://" placeholder="Enter your Linkedin Profile of Founders (For e.g. https://www.example.com)" name="supplemental-info['+index+']" id="supplemental-info['+index+']" required>'+
                             '<span class="input-group-btn">'+
-                                '<button class="btn btn-danger btn-remove-supplemental-info-link" type="button"><span class="glyphicon glyphicon-remove ">X</span></button>'+
+                                '<button class="btn btn-danger btn-remove-supplemental-info-link" type="button"><img src="./assets/img/delete.png" alt="Delete" class="delete-icon"></button>'+
                             '</span>'+
+                            '<input class="form-control" type="url" value="https://" placeholder="Enter your Linkedin Profile of Founders (For e.g. https://www.example.com)" name="supplemental-info['+index+']" id="supplemental-info['+index+']" required onfocus="this.setSelectionRange(this.value.length, this.value.length);">'+
                         '</div>'
                 );
 
@@ -757,6 +757,8 @@
             $(document.body).on('click', '.btn-remove-supplemental-info-link' ,function(){
 				$(this).closest('.supplemental-input').remove();
 			});
+
+            
             
         </script>
     </body>
