@@ -306,7 +306,9 @@ canvas {
     transform: translate3d(0px, 0px, 0px);
     padding-left: 7%;
   }
-  
+@media (min-width:1300px){
+    .globe canvas{max-height: 300px !important;max-width: 100% !important;width: 550px !important;height: 200px !important;}
+}
 @media (min-width: 768px){
     .navbar, .container-darq {
         max-width: 840px;
@@ -382,7 +384,10 @@ canvas {
         max-width: 60%;
         left: 0;
         margin: auto;
+        max-height: 300px !important;
+        min-height: 250px;
     }
+    .globe canvas{max-height: 300px !important;max-width: 100% !important;}
     .lab-scroll {
         margin: 2rem 0;
     }
@@ -440,9 +445,12 @@ canvas {
     .p-5-0{padding: 2rem 0;}
     .p-3-1{padding: 1rem 1rem;}
     .p-3-1-1{padding: 1rem 1rem .5rem;}
+    .globe {
+        max-width: 100%;
+    }
     .globe canvas {
-        width: 200px !important;
-        height: auto !important;
+        width: 220px !important;
+        height: 220px !important;
     }
 }
 @media (max-width:520px){
