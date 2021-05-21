@@ -64,7 +64,7 @@ $page_name = "about"; ?>
                         </div>
                     </div>
                     <div class="pad-3 border-top">
-                        <p class="text-center d-block m-auto"><b class="fw-600 txt-16 lh-22">“Whatever it takes to help you grow”</b></p>
+                        <p class="text-center d-block m-auto"><b class="fw-600 txt-16 lh-22 IBMPlexSans italic color-h-black">“Whatever it takes to help you grow”</b></p>
                     </div>
                 </div>
             </div>

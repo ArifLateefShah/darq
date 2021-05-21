@@ -10,12 +10,16 @@
 .txt-14{font-size: 14px;}
 .txt-16{font-size: 16px;}
 .txt-18{font-size: 18px;}
+.txt-22{font-size: 22px;}
 .txt-24{font-size: 24px;}
+.txt-38{font-size: 38px;}
 .txt-48{font-size: 48px;}
 
 .lh-17{line-height: 17px;}
 .lh-20{line-height: 20px;}
 .lh-22{line-height: 22px;}
+.lh-24{line-height: 24px;}
+.lh-26{line-height: 26px;}
 .lh-56{line-height: 56px;}
 
 .fw-300{font-weight: 300;}
@@ -64,6 +68,7 @@
 .pad-0{padding: 0;}
 .p-5-0{padding: 5rem 0;}
 .p-10-0{padding: 10px 0;}
+.p-15{padding: 15px;}
 .p-3-1{padding: 3rem 1rem;}
 .p-3-1-1{padding: 3rem 1rem 1rem;}
 .m-5-auto{margin: 5px auto;}
@@ -149,7 +154,7 @@ header .navbar-brand img{max-width: 220px;}
 }
 
 
-.scroll-sec{padding: 8% 0 6%;}
+/* .scroll-sec{padding: 8% 0 6%;} */
 .big-number{padding: 12px 15px;}
 .arrow-underline{
     border-bottom-style: dashed;
@@ -279,6 +284,29 @@ canvas {
     max-width: 650px;
 
 }
+.animation-element.slide-left {
+    opacity: 0;
+    -moz-transition: all 1000ms linear;
+    -webkit-transition: all 1000ms linear;
+    -o-transition: all 1000ms linear;
+    transition: all 1000ms linear;
+    -moz-transform: translate3d(-100px, 0px, 0px);
+    -webkit-transform: translate3d(-100px, 0px, 0px);
+    -o-transform: translate(-100px, 0px);
+    -ms-transform: translate(-100px, 0px);
+    transform: translate3d(-100px, 0px, 0px);
+  }
+  
+  .animation-element.slide-left.in-view {
+    opacity: 1;
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    padding-left: 7%;
+  }
+  
 @media (min-width: 768px){
     .navbar, .container-darq {
         max-width: 840px;
@@ -370,6 +398,19 @@ canvas {
         margin: auto;
     }
     .btn-outline-white{margin: 10px;}
+    .img-box{
+        position: relative;
+        padding: 3rem 0;
+    }
+    .animation-element .animation-content,  .animation-content{
+      position: absolute;
+      max-width: 70%;
+      /* left: 20%; */
+      bottom: 5%;
+      border: 0.3px solid #fff;
+    }
+    .animation-content{left: 15%;}
+    .animation-element .animation-content{left: 20%;}
 }
 @media (max-width:640px){
     .txt-14{font-size: 14px;}
@@ -385,7 +426,7 @@ canvas {
     .lab-banner-sec {
         padding: 20% 0 13%;
     }
-    
+    .scroll-sec{padding: 5% 0 15%;}
     
     
 }
@@ -407,7 +448,7 @@ canvas {
 @media (max-width:520px){
     .xs-txt-center{text-align: center;}
     .lab-banner-sec {
-        padding: 100px 0 60px;
+        padding: 140px 0 60px;
     }
     .subscribe-form{margin: auto;}
     img.color-box-content{max-width: 230px;width: 100%;}
