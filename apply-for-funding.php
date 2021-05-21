@@ -144,9 +144,9 @@
                                 </fieldset>
                                 <fieldset role="radiogroup" aria-label="Step Seven - Linkedin Profile of Founders" aria-describedby="co-borrower-error"
                                     id="step-7">
-                                    <legend class="text-left color-white txt-36 lh-45 fw-300">6. Linkedin Profile of Founders <span class="txt-16 txt-al-ct mandatory">*</span></legend>
+                                    <legend class="text-left color-white txt-36 lh-45 fw-300">6. LinkedIn Profile of Founders <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
-                                        <input class="form-control" type="url" value="https://" placeholder="Enter your Linkedin Profile of Founders (For e.g. https://www.example.com)" name="linedin-profile[0]" id="linedin-profile[0]" required onfocus="this.setSelectionRange(this.value.length, this.value.length);">
+                                        <input class="form-control" type="url" value="https://" placeholder="Enter your LinkedIn Profile of Founders (For e.g. https://www.example.com)" name="linedin-profile[0]" id="linedin-profile[0]" required onfocus="this.setSelectionRange(this.value.length, this.value.length);">
                                     </p>
                                     <p class="link-list"></p>
                                     <p>

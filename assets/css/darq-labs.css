@@ -306,8 +306,8 @@ canvas {
     transform: translate3d(0px, 0px, 0px);
     padding-left: 7%;
   }
-@media (min-width:1400px){
-    .globe canvas{max-height: 300px !important;max-width: 100% !important;width: 550px !important;height: 190px !important;}
+@media (min-width:1440px){
+    .globe canvas{max-height: 300px !important;max-width: 100% !important;width: 550px !important;height: 260px !important;}
 }
 @media (min-width: 768px){
     .navbar, .container-darq {

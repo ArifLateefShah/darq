@@ -39,7 +39,7 @@ $page_name = "about"; ?>
                             <div class="col-md-12">
                                 <h2 class="txt-48 lh-56 sm-txt-center fw-500">Where we excel</h2>
                                 <p class="txt-16 lh-22 color-black fw-400">Darq Capital was created on the back of our strong belief in the long-term disruptive impact of these new technologies. We support companies and entrepreneurs operating in the DARQ space, 
-                                    by <a href="mailto:pitch@darq.capital" class="text-decoration-none"><b class="color-6 fw-600 arrow-underline">investing upto $500,000,</b></a> leveraging our network, insights and access to capital.</p>
+                                    by <a href="mailto:pitch@darq.capital" class="text-decoration-none"><b class="color-6 fw-600 arrow-underline">investing up to $500,000,</b></a> leveraging our network, insights and access to capital.</p>
                                     <br>
                                     <div class="row">
                                         <div class="col-lg-4">

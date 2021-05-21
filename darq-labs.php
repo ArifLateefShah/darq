@@ -30,7 +30,7 @@ $page_name = "darq-labs"; ?>
             </div>
             <div class="col-md-7 bg-color-0 p-15 animation-content">
                 <p class="txt-22 lh-26 color-1 fw-500 m-0"><b>Go-to-Market Strategy</b></p>
-                <p class="txt-18 lh-22 color-white fw-300 m-0">Generate the most optimal outcomes for success when you hit the market, by preparing strategies for messaging, narrative-building, content etc, meticulously supported by our workshops.</p>
+                <p class="txt-18 lh-22 color-white fw-300 m-0">Generate the most optimal outcomes for success when you hit the market, by preparing strategies for messaging, narrative-building, content etc., meticulously supported by our workshops.</p>
             </div>
         </div>
         <div class="row m-0 align-items-center p-5-0 animation-element slide-left img-box">
