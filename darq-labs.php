@@ -47,8 +47,8 @@ $page_name = "darq-labs"; ?>
                 <img src="./assets/img/3.png" alt="Capital-raising Support; Partnerships">
             </div>
             <div class="col-md-7 bg-color-0 p-15 animation-content">
-                <p class="txt-22 lh-26 color-3 fw-500 m-0"><b>Capital-raising Support; Partnerships</b></p>
-                <p class="txt-18 lh-22 color-white fw-300 m-0">After investing capital and resources, our portfolio management teams help our companies grow and scale to prepare and successfully raise follow-on funding rounds through our globally-diverse investor network.</p>
+                <p class="txt-22 lh-26 color-3 fw-500 m-0"><b>Capital-raising Support & Partnerships</b></p>
+                <p class="txt-18 lh-22 color-white fw-300 m-0">After investing capital and resources, our portfolio management teams help your companies grow and scale to prepare and successfully raise follow-on funding rounds through our globally-diverse investor network.</p>
             </div>
         </div>
         <div class="row m-0 align-items-center p-5-0 animation-element slide-left img-box">
