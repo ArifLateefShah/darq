@@ -146,7 +146,7 @@
                                     id="step-7">
                                     <legend class="text-left color-white txt-36 lh-45 fw-300">6. LinkedIn Profile of Founders <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
-                                        <input class="form-control" type="url" value="https://" placeholder="Enter your LinkedIn Profile of Founders (For e.g. https://www.example.com)" name="linedin-profile[0]" id="linedin-profile[0]" required onfocus="this.setSelectionRange(this.value.length, this.value.length);">
+                                        <input class="form-control w-80" type="url" value="https://" placeholder="Enter your LinkedIn Profile of Founders (For e.g. https://www.example.com)" name="linedin-profile[0]" id="linedin-profile[0]" required onfocus="this.setSelectionRange(this.value.length, this.value.length);">
                                     </p>
                                     <p class="link-list"></p>
                                     <p>
@@ -168,7 +168,7 @@
                                     id="step-8">
                                     <legend class="text-left color-white txt-36 lh-45 fw-300">7. Link to your deck, materials, or supplemental info <span class="txt-16 txt-al-ct mandatory">*</span></legend>
                                     <p>
-                                        <input class="form-control" type="url" value="https://" placeholder="Link to your deck, materials, or supplemental info (For e.g. https://www.example.com)" name="supplemental-info[0]" id="supplemental-info[0]" required onfocus="this.setSelectionRange(this.value.length, this.value.length);">
+                                        <input class="form-control w-80" type="url" value="https://" placeholder="Link to your deck, materials, or supplemental info (For e.g. https://www.example.com)" name="supplemental-info[0]" id="supplemental-info[0]" required onfocus="this.setSelectionRange(this.value.length, this.value.length);">
                                     </p>
                                     <p class="supplemental-info-list"></p>
                                     <p>
