@@ -514,6 +514,10 @@ font-size: 90%;
     font-family: "Space-Grotesk";
     background-color:#1D4CF5;
 }
+.vc-investors {
+    font-family: "Space-Grotesk";
+    background-color:#000000;
+}
 /* Multistep form */
 @media (min-width: 768px){
     .navbar, .container-darq {
@@ -625,6 +629,11 @@ font-size: 90%;
     }
     .btn-outline-white{margin: 10px;}
 }
+.zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
 @media (max-width:640px){
     .txt-14{font-size: 14px;}
     .txt-16{font-size: 15px;}
@@ -648,10 +657,10 @@ font-size: 90%;
     .xs-w-100{width: 100% !important;}
     header .navbar-brand img{max-width: 200px;}
     .footer-logo{margin:10px auto;}
-    .company-logos .ml-5 {
+    .company-logos .ml-5, .vc-investors .ml-5 {
         margin-left: 0!important;
     }
-    .company-logos .mx-5 {
+    .company-logos .mx-5 , .vc-investors .mx-5{
         margin-left: 0!important;
     }
 }

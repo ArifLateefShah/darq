@@ -36,20 +36,49 @@ $page_name = "about"; ?>
                 <div class="col-md-12">
                     <h2 class="color-white pt-5">A few of our investments</h2>
                     <div class ="row mx-5 my-5">
-                      <div class="ml-5 col-md-2 col-6"><img src="./assets/img/avalanche-logo.png" alt="Pre seed"></div>
-                      <div class="col-md-2 col-6"><img src="./assets/img/globe logo.png" alt="Pre seed"></div>
-                      <div class="col-md-2 col-6"><img src="./assets/img/Radix-Capital-Logo.png" alt="Pre seed"></div>
-                      <div class="col-md-2 col-6"><img src="./assets/img/clover_logo.png" alt="Pre seed"></div>
-                      <div class="col-md-2 col-6"><img src="./assets/img/titan-logo.png" alt="Pre seed"></div>
+                      <div class="ml-5 col-md-2 col-6 zoom"><img src="./assets/img/avalanche-logo.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6 zoom"><img src="./assets/img/globe logo.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6 zoom"><img src="./assets/img/Radix-Capital-Logo.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6 zoom"><img src="./assets/img/clover_logo.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6 zoom"><img src="./assets/img/titan-logo.png" alt="Pre seed"></div>
                     </div>
                     <div class ="row mx-5 my-5">
-                      <div class="ml-5 col-md-2 col-6"><img src="./assets/img/graph-logo.png" alt="Pre seed"></div>
-                      <div class="col-md-2 col-6"><img src="./assets/img/notional-logo.png" alt="Pre seed"></div>
-                      <div class="col-md-2 col-6"><img src="./assets/img/epns-logo.png" alt="Pre seed"></div>
-                      <div class="col-md-2 col-6"><img src="./assets/img/cere-logo.png" alt="Pre seed"></div>
-                      <div class="col-md-2 col-6"><img src="./assets/img/Nayms-logo.png" alt="Pre seed"></div>
+                      <div class="ml-5 col-md-2 col-6 zoom"><img src="./assets/img/graph-logo.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6 zoom"><img src="./assets/img/notional-logo.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6 zoom"><img src="./assets/img/epns-logo.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6 zoom"><img src="./assets/img/cere-logo.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6 zoom"><img src="./assets/img/Nayms-logo.png" alt="Pre seed"></div>
                     </div>
                     <h3 class="color-white pt-3 pb-5">ang growing...</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="vc-investors">
+        <div class="container-fluid">
+            <div class="row text-center py-5 mx-5">
+                <div class="col-md-3">
+                    <h2 class="color-white my-5 lh-56">VCs investing in our portfolio</h2>
+                </div>
+                <div class="col-md-9">
+                    <div class ="row my-5">
+                      <div class="ml-5 col-md-2 col-6 zoom"><img src="./assets/img/DCG.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6 zoom"><img src="./assets/img/binance.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6 zoom"><img src="./assets/img/lemniscap.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6 zoom"><img src="./assets/img/moonwhale.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6 zoom"><img src="./assets/img/polychain-capital.png" alt="Pre seed"></div>
+                    </div>
+                    <div class ="row my-5">
+                      <div class="ml-5 col-md-2 col-6 zoom"><img src="./assets/img/Multicoin_Capital_Square.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6 zoom"><img src="./assets/img/pantera.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6 zoom"><img src="./assets/img/parafi.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6 zoom"><img src="./assets/img/Fenbushi_Capital.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6 zoom"><img src="./assets/img/spark.png" alt="Pre seed"></div>
+                    </div>
+                    <div class ="row my-5">
+                      <div class="ml-5 col-md-2 col-6 zoom"><img src="./assets/img/arrington 1.png" alt="Pre seed"></div>
+                      <div class="col-md-3 col-6 zoom"><img src="./assets/img/almeda.png" alt="Pre seed"></div>
+                      <div class="col-md-3 col-6 zoom"><img src="./assets/img/coinbase logo.png" alt="Pre seed"></div>
                 </div>
             </div>
         </div>
