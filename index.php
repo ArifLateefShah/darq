@@ -30,6 +30,30 @@ $page_name = "about"; ?>
             </div>
         </div>
     </section>
+    <section class="company-logos">
+        <div class="container-fluid">
+            <div class="row text-center py-5">
+                <div class="col-md-12">
+                    <h2 class="color-white pt-5">A few of our investments</h2>
+                    <div class ="row mx-5 my-5">
+                      <div class="ml-5 col-md-2 col-6"><img src="./assets/img/avalanche-logo.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6"><img src="./assets/img/globe logo.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6"><img src="./assets/img/Radix-Capital-Logo.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6"><img src="./assets/img/clover_logo.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6"><img src="./assets/img/titan-logo.png" alt="Pre seed"></div>
+                    </div>
+                    <div class ="row mx-5 my-5">
+                      <div class="ml-5 col-md-2 col-6"><img src="./assets/img/graph-logo.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6"><img src="./assets/img/notional-logo.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6"><img src="./assets/img/epns-logo.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6"><img src="./assets/img/cere-logo.png" alt="Pre seed"></div>
+                      <div class="col-md-2 col-6"><img src="./assets/img/Nayms-logo.png" alt="Pre seed"></div>
+                    </div>
+                    <h3 class="color-white pt-3 pb-5">ang growing...</h3>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="section-3">
         <div class="container br-tl-35 br-br-35 bg-color-white xs-wd-90 pad-0">
             <div class="row">

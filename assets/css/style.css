@@ -510,6 +510,10 @@ font-size: 90%;
     width: 20%;
     height: 50px;
 }
+.company-logos {
+    font-family: "Space-Grotesk";
+    background-color:#1D4CF5;
+}
 /* Multistep form */
 @media (min-width: 768px){
     .navbar, .container-darq {
@@ -644,7 +648,12 @@ font-size: 90%;
     .xs-w-100{width: 100% !important;}
     header .navbar-brand img{max-width: 200px;}
     .footer-logo{margin:10px auto;}
-    
+    .company-logos .ml-5 {
+        margin-left: 0!important;
+    }
+    .company-logos .mx-5 {
+        margin-left: 0!important;
+    }
 }
 @media (max-width:520px){
     .xs-txt-center{text-align: center;}
@@ -663,4 +672,5 @@ font-size: 90%;
     .lh-22{line-height: 22px;}
     .lh-56{line-height: 34px;}
 }
+
 
