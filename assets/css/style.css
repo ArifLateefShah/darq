@@ -513,6 +513,7 @@ font-size: 90%;
 .company-logos {
     font-family: "Space-Grotesk";
     background-color:#1D4CF5;
+    margin-top: -7px;
 }
 .vc-investors {
     font-family: "Space-Grotesk";
