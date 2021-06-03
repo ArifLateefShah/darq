@@ -59,7 +59,7 @@ $page_name = "about"; ?>
         <div class="container-fluid">
             <div class="row text-center py-5 mx-5">
                 <div class="col-md-3">
-                    <h2 class="color-white my-5 lh-56">Notable VCs investing our portfolio</h2>
+                    <h2 class="color-white my-5 lh-56">Notable VCs investing in our portfolio</h2>
                 </div>
                 <div class="col-md-9">
                     <div class ="row my-5">
